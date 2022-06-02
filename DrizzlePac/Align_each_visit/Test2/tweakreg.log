@@ -1,0 +1,300 @@
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 1.4.7(18-April-2018) started at: 16:15:26.746 (01/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.7.13 (default, Mar 28 2022, 07:24:34) 
+[INFO    ] numpy Version -> 1.21.5 
+[INFO    ] astropy Version -> 4.3.1 
+[INFO    ] stwcs Version -> 1.6.1 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	*_flt.fits
+[INFO    ] 	interactive :	True
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ]     jec401nrq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	*_flt.fits
+[INFO    ] 	interactive :	True
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	None
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	4.0
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 16:15:26.855 (01/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 16:15:27.122 (01/06/2022)
+[INFO    ]      Found 6878 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 6878
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401nrq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401nrq_flt.fits', EXT=('SCI', 1) started at: 16:15:27.271 (01/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 16:15:27.564 (01/06/2022)
+[INFO    ]      Found 7090 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401nrq_flt.fits': 7090
+[INFO    ] 
+[INFO    ] Converting RA/Dec positions of reference sources from "jec401noq_flt.fits" to X,Y positions in reference WCS...
+[INFO    ] 
+[INFO    ] ===============================================================
+[INFO    ] Performing alignment in the projection plane defined by the WCS
+[INFO    ] derived from 'jec401noq_flt.fits'
+[INFO    ] ===============================================================
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for matching sources:
+[INFO    ] 	minobj :	15
+[INFO    ] 	residplot :	both
+[INFO    ] 	searchrad :	1.0
+[INFO    ] 	searchunits :	arcseconds
+[INFO    ] 	see2dplot :	True
+[INFO    ] 	separation :	0.5
+[INFO    ] 	tolerance :	1.0
+[INFO    ] 	use2dhist :	True
+[INFO    ] 	xoffset :	0.0
+[INFO    ] 	yoffset :	0.0
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for fitting source lists:
+[INFO    ] 	fitgeometry :	rscale
+[INFO    ] 	labelsize :	8
+[INFO    ] 	minobj :	15
+[INFO    ] 	nclip :	3
+[INFO    ] 	residplot :	both
+[INFO    ] 	sigma :	3.0
+[INFO    ] 	ylimit :	None
+[INFO    ] 
+[INFO    ] ====================
+[INFO    ] Performing fit for: jec401nrq_flt.fits
+[INFO    ] 
+[INFO    ] Matching sources from 'jec401nrq_flt.fits' with sources from reference image 'jec401noq_flt.fits'
+[INFO    ] Computing initial guess for X and Y shifts...
+[INFO    ] Found initial X and Y shifts of -28, 5.96e-07 with significance of 12.59 and 795 matches
+[INFO    ] Found 99 matches for jec401nrq_flt.fits...
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Computed  rscale  fit for  jec401nrq_flt.fits : 
+[INFO    ] XSH: -28.2086  YSH: -0.0386    ROT: 359.9997792    SCALE: 0.999879
+[INFO    ] FIT XRMS: 0.075      FIT YRMS: 0.52   
+[INFO    ] FIT RMSE: 0.53       FIT MAE: 0.45   
+[INFO    ] 
+[INFO    ] RMS_RA: 2.8e-06 (deg)   RMS_DEC: 2.4e-06 (deg)
+[INFO    ] 
+[INFO    ] Final solution based on  89  objects.
+[INFO    ] Creating catalog for the fit: jec401nrq_flt_catalog_fit.match
+[INFO    ] wrote XY data to:  jec401nrq_flt_catalog_fit.match
+[INFO    ] Total # points: 89
+[INFO    ] # of points after clipping: 89
+[INFO    ] Total # points: 89
+[INFO    ] # of points after clipping: 89
+[INFO    ] Press ENTER for next image, 
+      'n' to continue without updating header or 
+      'q' to quit immediately...
+n
+[INFO    ] ....Updating header for jec401nrq_flt.fits...
+[INFO    ] Processing jec401nrq_flt.fits['SCI',1]
+[INFO    ] Trailer file written to:  tweakreg.log
+[ERROR   ] An unhandled exception ocurred:
+Traceback (most recent call last):
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/drizzlepac/util.py", line 225, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/drizzlepac/tweakreg.py", line 589, in run
+    reusename=uphdr_par['reusename'])
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/drizzlepac/imgclasses.py", line 824, in updateHeader
+    yrms=self.fit['rms_keys']['RMS_DEC'])
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/drizzlepac/updatehdr.py", line 257, in updatewcs_with_shift
+    reusename=reusename, verbose=verbose)
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/drizzlepac/updatehdr.py", line 465, in update_wcs
+    altwcs.archive_wcs(image, [extnum], wcsname=pri_wcsname, mode=altwcs.ArchiveMode.AUTO_RENAME)
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/stwcs/wcsutil/altwcs.py", line 185, in archive_wcs
+    raise ValueError("'fname' must be a file object opened in 'update' mode.")
+ValueError: 'fname' must be a file object opened in 'update' mode.
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 1.4.7(18-April-2018) started at: 16:25:29.101 (01/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.7.13 (default, Mar 28 2022, 07:24:34) 
+[INFO    ] numpy Version -> 1.21.5 
+[INFO    ] astropy Version -> 4.3.1 
+[INFO    ] stwcs Version -> 1.6.1 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	*_flt.fits
+[INFO    ] 	interactive :	True
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ]     jec401nrq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	*_flt.fits
+[INFO    ] 	interactive :	True
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	None
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	4.0
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 16:25:29.209 (01/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 16:25:29.481 (01/06/2022)
+[INFO    ]      Found 6878 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 6878
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401nrq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401nrq_flt.fits', EXT=('SCI', 1) started at: 16:25:29.626 (01/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 16:25:29.922 (01/06/2022)
+[INFO    ]      Found 7090 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401nrq_flt.fits': 7090
+[INFO    ] 
+[INFO    ] Converting RA/Dec positions of reference sources from "jec401noq_flt.fits" to X,Y positions in reference WCS...
+[INFO    ] 
+[INFO    ] ===============================================================
+[INFO    ] Performing alignment in the projection plane defined by the WCS
+[INFO    ] derived from 'jec401noq_flt.fits'
+[INFO    ] ===============================================================
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for matching sources:
+[INFO    ] 	minobj :	15
+[INFO    ] 	residplot :	both
+[INFO    ] 	searchrad :	1.0
+[INFO    ] 	searchunits :	arcseconds
+[INFO    ] 	see2dplot :	True
+[INFO    ] 	separation :	0.5
+[INFO    ] 	tolerance :	1.0
+[INFO    ] 	use2dhist :	True
+[INFO    ] 	xoffset :	0.0
+[INFO    ] 	yoffset :	0.0
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for fitting source lists:
+[INFO    ] 	fitgeometry :	rscale
+[INFO    ] 	labelsize :	8
+[INFO    ] 	minobj :	15
+[INFO    ] 	nclip :	3
+[INFO    ] 	residplot :	both
+[INFO    ] 	sigma :	3.0
+[INFO    ] 	ylimit :	None
+[INFO    ] 
+[INFO    ] ====================
+[INFO    ] Performing fit for: jec401nrq_flt.fits
+[INFO    ] 
+[INFO    ] Matching sources from 'jec401nrq_flt.fits' with sources from reference image 'jec401noq_flt.fits'
+[INFO    ] Computing initial guess for X and Y shifts...
+[INFO    ] Found initial X and Y shifts of -28, 5.96e-07 with significance of 12.59 and 795 matches
+[INFO    ] Found 99 matches for jec401nrq_flt.fits...
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Performing "rscale" fit
+[INFO    ] Computed  rscale  fit for  jec401nrq_flt.fits : 
+[INFO    ] XSH: -28.2086  YSH: -0.0386    ROT: 359.9997792    SCALE: 0.999879
+[INFO    ] FIT XRMS: 0.075      FIT YRMS: 0.52   
+[INFO    ] FIT RMSE: 0.53       FIT MAE: 0.45   
+[INFO    ] 
+[INFO    ] RMS_RA: 2.8e-06 (deg)   RMS_DEC: 2.4e-06 (deg)
+[INFO    ] 
+[INFO    ] Final solution based on  89  objects.
+[INFO    ] Creating catalog for the fit: jec401nrq_flt_catalog_fit.match
+[INFO    ] wrote XY data to:  jec401nrq_flt_catalog_fit.match
+[INFO    ] Total # points: 89
+[INFO    ] # of points after clipping: 89
+[INFO    ] Total # points: 89
+[INFO    ] # of points after clipping: 89
+[INFO    ] Press ENTER for next image, 
+      'n' to continue without updating header or 
+      'q' to quit immediately...
+n
+[INFO    ] ....Updating header for jec401nrq_flt.fits...
+[INFO    ] Processing jec401nrq_flt.fits['SCI',1]
+[INFO    ] Trailer file written to:  tweakreg.log
+[ERROR   ] An unhandled exception ocurred:
+Traceback (most recent call last):
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/drizzlepac/util.py", line 225, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/drizzlepac/tweakreg.py", line 589, in run
+    reusename=uphdr_par['reusename'])
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/drizzlepac/imgclasses.py", line 824, in updateHeader
+    yrms=self.fit['rms_keys']['RMS_DEC'])
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/drizzlepac/updatehdr.py", line 257, in updatewcs_with_shift
+    reusename=reusename, verbose=verbose)
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/drizzlepac/updatehdr.py", line 465, in update_wcs
+    altwcs.archive_wcs(image, [extnum], wcsname=pri_wcsname, mode=altwcs.ArchiveMode.AUTO_RENAME)
+  File "/Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/stwcs/wcsutil/altwcs.py", line 185, in archive_wcs
+    raise ValueError("'fname' must be a file object opened in 'update' mode.")
+ValueError: 'fname' must be a file object opened in 'update' mode.
