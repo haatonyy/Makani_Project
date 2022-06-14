@@ -1,0 +1,931 @@
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 15:21:49.2 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	True
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	True
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	None
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	4.0
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 15:21:49.436 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 15:21:49.736 (09/06/2022)
+[INFO    ]      Found 6878 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 6878
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 15:22:28.488 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	70000
+[INFO    ] 	peakmin :	None
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	4000
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 15:22:28.623 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 15:22:28.929 (09/06/2022)
+[INFO    ]      Found 6878 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 6878
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 15:22:48.630 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	None
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	40000
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 15:22:48.760 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 15:22:49.041 (09/06/2022)
+[INFO    ]      Found 6878 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 6878
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 15:23:08.174 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	None
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	40000
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 15:23:08.303 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 15:23:08.529 (09/06/2022)
+[INFO    ]      Found 6878 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 6878
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 15:23:17.90 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	None
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	4
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 15:23:18.096 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 15:23:18.318 (09/06/2022)
+[INFO    ]      Found 6878 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 6878
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 15:25:02.886 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	None
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	400000000
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 15:25:03.132 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 15:25:03.421 (09/06/2022)
+[INFO    ]      Found 6878 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 6878
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 15:25:13.357 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	None
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	400
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 15:25:13.486 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 15:25:13.76 (09/06/2022)
+[INFO    ]      Found 6878 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 6878
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 15:25:35.4 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	1
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	400
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 15:25:35.596 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 15:25:35.86 (09/06/2022)
+[INFO    ]      Found 3882 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 3882
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 15:25:42.118 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	2
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	400
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 15:25:42.24 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 15:25:42.421 (09/06/2022)
+[INFO    ]      Found 31 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 31
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 15:25:46.384 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	3
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	400
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 15:25:46.533 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 15:25:46.713 (09/06/2022)
+[INFO    ]      Found 3 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 3
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Image 'jec401noq_flt.fits' will not be aligned since it contains fewer than 15 sources.
+[INFO    ] 
+[WARNING ] Image 'jec401noq_flt.fits' will not be aligned since it contains fewer than 15 sources.
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 16:51:37.657 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	3
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	400
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 16:51:37.802 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 16:51:38.089 (09/06/2022)
+[INFO    ]      Found 3 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 3
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Image 'jec401noq_flt.fits' will not be aligned since it contains fewer than 15 sources.
+[INFO    ] 
+[WARNING ] Image 'jec401noq_flt.fits' will not be aligned since it contains fewer than 15 sources.
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 16:51:52.224 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	1
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	400
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 16:51:52.366 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 16:51:52.590 (09/06/2022)
+[INFO    ]      Found 3882 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 3882
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 16:51:58.299 (09/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Finding shifts for: 
+[INFO    ]     jec401noq_flt.fits
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for finding sources for each input image:
+[INFO    ] 	clean :	False
+[INFO    ] 	computesig :	True
+[INFO    ] 	conv_width :	3.5
+[INFO    ] 	dqbits :	
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	fluxmax :	None
+[INFO    ] 	fluxmin :	None
+[INFO    ] 	input :	jec401noq_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	nsigma :	1.5
+[INFO    ] 	peakmax :	None
+[INFO    ] 	peakmin :	2
+[INFO    ] 	ratio :	1.0
+[INFO    ] 	refimage :	
+[INFO    ] 	roundhi :	1.0
+[INFO    ] 	roundlo :	-1.0
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	sharphi :	1.0
+[INFO    ] 	sharplo :	0.2
+[INFO    ] 	skysigma :	0.0
+[INFO    ] 	theta :	0.0
+[INFO    ] 	threshold :	400
+[INFO    ] 	updatehdr :	False
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	use_sharp_round :	False
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 	xyunits :	pixels
+[INFO    ] 
+[INFO    ] ===  Source finding for image 'jec401noq_flt.fits':
+[INFO    ]   #  Source finding for 'jec401noq_flt.fits', EXT=('SCI', 1) started at: 16:51:58.439 (09/06/2022)
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]    Finding sources using sky sigma = 0.000000
+[INFO    ] ###Source finding finished at: 16:51:58.614 (09/06/2022)
+[INFO    ]      Found 31 objects.
+[INFO    ] ===  FINAL number of objects in image 'jec401noq_flt.fits': 31
+[INFO    ] 
+[INFO    ] 
+[INFO    ] WARNING: Fewer than two images available for alignment. Quitting...
+[INFO    ] 
+[WARNING ] Fewer than two images available for alignment. Quitting...
+[INFO    ] Trailer file written to:  tweakreg.log

@@ -1,0 +1,601 @@
+[INFO    ] Setting up logfile :  astrodrizzle.log
+[INFO    ] AstroDrizzle Version 3.1.8 (2020-07-27 10:34:52 -0400) started at: 09:52:51.97 (03/06/2022)
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.7.13 (default, Mar 28 2022, 07:24:34) 
+[INFO    ] numpy Version -> 1.21.5 
+[INFO    ] astropy Version -> 4.3.1 
+[INFO    ] stwcs Version -> 1.6.1 
+[INFO    ] ==== Processing Step  Initialization  started at  09:52:51.98 (03/06/2022)
+[INFO    ] 
+[INFO    ] Preserving original of:  jec401noq_flt.fits as  OrIg_files/jec401noq_flt.fits
+[INFO    ] Preserving original of:  jec401nrq_flt.fits as  OrIg_files/jec401nrq_flt.fits
+[INFO    ] Preserving original of:  jec401nvq_flt.fits as  OrIg_files/jec401nvq_flt.fits
+[INFO    ] Preserving original of:  jec401nxq_flt.fits as  OrIg_files/jec401nxq_flt.fits
+[INFO    ] Executing serially
+[INFO    ] Setting up output name: f_drz.fits
+[INFO    ] -Creating imageObject List as input for processing steps.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] No context image will be created for jec401noq_flt.fits
+[INFO    ] No context image will be created for jec401nrq_flt.fits
+[INFO    ] No context image will be created for jec401nvq_flt.fits
+[INFO    ] No context image will be created for jec401nxq_flt.fits
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec401noq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec401nrq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec401nvq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec401nxq_flt.fits[DQ,1]
+[INFO    ] -Creating output WCS.
+[INFO    ] No context image will be created for f_drz.fits
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'  
+[INFO    ] CRVAL : 319.60107476702854  0.29199923166248787  
+[INFO    ] CRPIX : 716.0  694.5  
+[INFO    ] CD1_1 CD1_2  : -3.7822096876335265e-06  5.824105077861544e-06  
+[INFO    ] CD2_1 CD2_2  : 5.824105077861544e-06  3.7822096876335265e-06  
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] ********************************************************************************
+[INFO    ] *
+[INFO    ] *  Estimated memory usage:  up to 30 Mb.
+[INFO    ] *  Output image size:       1432 X 1389 pixels. 
+[INFO    ] *  Output image file:       ~ 22 Mb. 
+[INFO    ] *  Cores available:         1
+[INFO    ] *
+[INFO    ] ********************************************************************************
+[INFO    ] ==== Processing Step Initialization finished at 09:52:52.482 (03/06/2022)
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	build :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	context :	False
+[INFO    ] 	crbit :	4096
+[INFO    ] 	group :	
+[INFO    ] 	in_memory :	False
+[INFO    ] 	input :	*flt.fits
+[INFO    ] 	mdriztab :	False
+[INFO    ] 	num_cores :	None
+[INFO    ] 	output :	f
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	resetbits :	4096
+[INFO    ] 	rules_file :	
+[INFO    ] 	runfile :	astrodrizzle.log
+[INFO    ] 	stepsize :	10
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	wcskey :	
+[INFO    ] ==== Processing Step  Static Mask  started at  09:52:52.489 (03/06/2022)
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for Static Mask Step:
+[INFO    ] 	static :	True
+[INFO    ] 	static_sig :	4.0
+[INFO    ] Computing static mask:
+
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]   mode =  0.000000;   rms = 0.000000;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]   mode =  0.000000;   rms = 0.000000;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]   mode =  0.000000;   rms = 0.000000;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]   mode =  0.000000;   rms = 0.000000;   static_sig = 4.00
+[INFO    ] Saving static mask to disk: ./ACSSBC_1024x1024_1_staticMask.fits
+[INFO    ] ==== Processing Step Static Mask finished at 09:52:52.59 (03/06/2022)
+[INFO    ] ==== Processing Step  Subtract Sky  started at  09:52:52.591 (03/06/2022)
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for Sky Subtraction Step:
+[INFO    ] 	sky_bits :	0
+[INFO    ] 	skyclip :	5
+[INFO    ] 	skyfile :	
+[INFO    ] 	skylower :	None
+[INFO    ] 	skylsigma :	4.0
+[INFO    ] 	skymask_cat :	
+[INFO    ] 	skymethod :	localmin
+[INFO    ] 	skystat :	median
+[INFO    ] 	skysub :	True
+[INFO    ] 	skyupper :	None
+[INFO    ] 	skyuser :	
+[INFO    ] 	skyusigma :	4.0
+[INFO    ] 	skywidth :	0.1
+[INFO    ] 	use_static :	True
+[INFO    ] ***** skymatch started on 2022-06-03 09:52:52.649484
+[INFO    ]       Version 1.0.8
+[INFO    ] 
+[INFO    ] 'skymatch' task will apply computed sky differences to input image file(s).
+[INFO    ] 
+[INFO    ] NOTE: Computed sky values WILL NOT be subtracted from image data ('subtractsky'=False).
+[INFO    ] 'MDRIZSKY' header keyword will represent sky value *computed* from data.
+[INFO    ] 
+[INFO    ] -----  User specified keywords:  -----
+[INFO    ]        Sky Value Keyword:  'MDRIZSKY'
+[INFO    ]        Data Units Keyword: 'BUNIT'
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -----  Input file list:  -----
+[INFO    ] 
+[INFO    ]    **  Input image: 'jec401noq_flt.fits'
+[INFO    ]        EXT: 'SCI',1;	MASK: jec401noq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ]    **  Input image: 'jec401nrq_flt.fits'
+[INFO    ]        EXT: 'SCI',1;	MASK: jec401nrq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ]    **  Input image: 'jec401nvq_flt.fits'
+[INFO    ]        EXT: 'SCI',1;	MASK: jec401nvq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ]    **  Input image: 'jec401nxq_flt.fits'
+[INFO    ]        EXT: 'SCI',1;	MASK: jec401nxq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] -----  Sky statistics parameters:  -----
+[INFO    ]        statistics function: 'median'
+[INFO    ]        lower = None
+[INFO    ]        upper = None
+[INFO    ]        nclip = 5
+[INFO    ]        lsigma = 4.0
+[INFO    ]        usigma = 4.0
+[INFO    ]        binwidth = 0.1
+[INFO    ] 
+[INFO    ] -----  Data->Brightness conversion parameters for input files:  -----
+[INFO    ] 
+[INFO    ]    *   Image: jec401noq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNTS
+[INFO    ]              EXPTIME: 624.0 [s]
+[INFO    ]              Conversion factor (data->brightness):  2.5641024876863545
+[INFO    ] 
+[INFO    ]    *   Image: jec401nrq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNTS
+[INFO    ]              EXPTIME: 624.0 [s]
+[INFO    ]              Conversion factor (data->brightness):  2.5641024876863545
+[INFO    ] 
+[INFO    ]    *   Image: jec401nvq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNTS
+[INFO    ]              EXPTIME: 624.0 [s]
+[INFO    ]              Conversion factor (data->brightness):  2.5641024876863545
+[INFO    ] 
+[INFO    ]    *   Image: jec401nxq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNTS
+[INFO    ]              EXPTIME: 624.0 [s]
+[INFO    ]              Conversion factor (data->brightness):  2.5641024876863545
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -----  Computing sky values requested image extensions (detector chips):  -----
+[INFO    ] 
+[INFO    ]    *   Image:   'jec401noq_flt.fits['SCI',1]'  --  SKY = 0.0 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0   NEW MDRIZSKY = 0
+[INFO    ]    *   Image:   'jec401nrq_flt.fits['SCI',1]'  --  SKY = 0.0 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0   NEW MDRIZSKY = 0
+[INFO    ]    *   Image:   'jec401nvq_flt.fits['SCI',1]'  --  SKY = 0.0 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0   NEW MDRIZSKY = 0
+[INFO    ]    *   Image:   'jec401nxq_flt.fits['SCI',1]'  --  SKY = 0.0 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0   NEW MDRIZSKY = 0
+[INFO    ] ***** skymatch ended on 2022-06-03 09:52:52.921843
+[INFO    ] TOTAL RUN TIME: 0:00:00.272359
+[INFO    ] ==== Processing Step Subtract Sky finished at 09:52:52.977 (03/06/2022)
+[INFO    ] ==== Processing Step  Separate Drizzle  started at  09:52:52.978 (03/06/2022)
+[INFO    ] 
+[INFO    ] Single drizzle step not performed.
+[INFO    ] ==== Processing Step Separate Drizzle finished at 09:52:52.980 (03/06/2022)
+[INFO    ] ==== Processing Step  Create Median  started at  09:52:52.981 (03/06/2022)
+[INFO    ] 
+[INFO    ] Median combination step not performed.
+[INFO    ] ==== Processing Step  Blot  started at  09:52:52.983 (03/06/2022)
+[INFO    ] 
+[INFO    ] Blot step not performed.
+[INFO    ] ==== Processing Step Blot finished at 09:52:52.985 (03/06/2022)
+[INFO    ] ==== Processing Step  Driz_CR  started at  09:52:52.987 (03/06/2022)
+[INFO    ] 
+[INFO    ] Cosmic-ray identification (driz_cr) step not performed.
+[INFO    ] ==== Processing Step  Final Drizzle  started at  09:52:52.989 (03/06/2022)
+[INFO    ] 
+[INFO    ] Interpreted paramDict with single=False as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'wht_type': 'EXP', 'kernel': 'square', 'wt_scl': 'exptime', 'pixfrac': 1.0, 'fillval': None, 'maskval': None, 'bits': 0, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Final Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	True
+[INFO    ] 	clean :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	fillval :	None
+[INFO    ] 	kernel :	square
+[INFO    ] 	maskval :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :	
+[INFO    ] 	wht_type :	EXP
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel square
+[INFO    ] Running Drizzle to create output frame with WCS of: 
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'  
+[INFO    ] CRVAL : 319.60107476702854  0.29199923166248787  
+[INFO    ] CRPIX : 716.0  694.5  
+[INFO    ] CD1_1 CD1_2  : -3.7822096876335265e-06  5.824105077861544e-06  
+[INFO    ] CD2_1 CD2_2  : 5.824105077861544e-06  3.7822096876335265e-06  
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] -Drizzle input: jec401noq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.000000 to jec401noq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec401nrq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.000000 to jec401nrq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec401nvq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.000000 to jec401nvq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec401nxq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.000000 to jec401nxq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 153 points were outside the output image.
+[INFO    ] -Generating multi-extension output file:  f_drz.fits
+[INFO    ] Deleted all instances of WCS with key A in extensions [1]
+[INFO    ] Deleted all instances of WCS with key B in extensions [1]
+[INFO    ] Writing out to disk: f_drz.fits
+[INFO    ] ==== Processing Step Final Drizzle finished at 09:52:54.777 (03/06/2022)
+[INFO    ] 
+[INFO    ] AstroDrizzle Version 3.1.8 is finished processing at 09:52:54.778 (03/06/2022).
+[INFO    ] 
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ] 
+[INFO    ]          Initialization          0.4949 sec.
+[INFO    ]             Static Mask          0.1015 sec.
+[INFO    ]            Subtract Sky          0.3863 sec.
+[INFO    ]        Separate Drizzle          0.0016 sec.
+[INFO    ]           Create Median          0.0000 sec.
+[INFO    ]                    Blot          0.0023 sec.
+[INFO    ]                 Driz_CR          0.0000 sec.
+[INFO    ]           Final Drizzle          1.7875 sec.
+[INFO    ]    ====================          ====================
+[INFO    ]                   Total          2.7741 sec.
+[INFO    ] 
+[INFO    ] Removing intermediate files for jec401noq_flt.fits
+[INFO    ] Removing intermediate files for jec401nrq_flt.fits
+[INFO    ] Removing intermediate files for jec401nvq_flt.fits
+[INFO    ] Removing intermediate files for jec401nxq_flt.fits
+[INFO    ] Trailer file written to:  astrodrizzle.log
+[INFO    ] Setting up logfile :  astrodrizzle.log
+[INFO    ] AstroDrizzle Version 3.1.8 (2020-07-27 10:34:52 -0400) started at: 09:56:01.421 (03/06/2022)
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.7.13 (default, Mar 28 2022, 07:24:34) 
+[INFO    ] numpy Version -> 1.21.5 
+[INFO    ] astropy Version -> 4.3.1 
+[INFO    ] stwcs Version -> 1.6.1 
+[INFO    ] ==== Processing Step  Initialization  started at  09:56:01.428 (03/06/2022)
+[INFO    ] 
+[INFO    ] Executing serially
+[INFO    ] Setting up output name: f_drz.fits
+[INFO    ] -Creating imageObject List as input for processing steps.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] No context image will be created for jec401noq_flt.fits
+[INFO    ] No context image will be created for jec401nrq_flt.fits
+[INFO    ] No context image will be created for jec401nvq_flt.fits
+[INFO    ] No context image will be created for jec401nxq_flt.fits
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec401noq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec401nrq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec401nvq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec401nxq_flt.fits[DQ,1]
+[INFO    ] -Creating output WCS.
+[INFO    ] No context image will be created for f_drz.fits
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'  
+[INFO    ] CRVAL : 319.60107476702854  0.29199923166248787  
+[INFO    ] CRPIX : 716.0  694.5  
+[INFO    ] CD1_1 CD1_2  : -3.7822096876335265e-06  5.824105077861544e-06  
+[INFO    ] CD2_1 CD2_2  : 5.824105077861544e-06  3.7822096876335265e-06  
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] ********************************************************************************
+[INFO    ] *
+[INFO    ] *  Estimated memory usage:  up to 30 Mb.
+[INFO    ] *  Output image size:       1432 X 1389 pixels. 
+[INFO    ] *  Output image file:       ~ 22 Mb. 
+[INFO    ] *  Cores available:         1
+[INFO    ] *
+[INFO    ] ********************************************************************************
+[INFO    ] ==== Processing Step Initialization finished at 09:56:01.888 (03/06/2022)
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	build :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	context :	False
+[INFO    ] 	crbit :	4096
+[INFO    ] 	group :	
+[INFO    ] 	in_memory :	False
+[INFO    ] 	input :	*flt.fits
+[INFO    ] 	mdriztab :	False
+[INFO    ] 	num_cores :	None
+[INFO    ] 	output :	f
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	resetbits :	4096
+[INFO    ] 	rules_file :	
+[INFO    ] 	runfile :	astrodrizzle.log
+[INFO    ] 	stepsize :	10
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	wcskey :	
+[INFO    ] ==== Processing Step  Static Mask  started at  09:56:01.895 (03/06/2022)
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for Static Mask Step:
+[INFO    ] 	static :	True
+[INFO    ] 	static_sig :	4.0
+[INFO    ] Computing static mask:
+
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]   mode =  0.000000;   rms = 0.000000;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]   mode =  0.000000;   rms = 0.000000;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]   mode =  0.000000;   rms = 0.000000;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ] ! WARNING: Clipped data falls within 1 histogram bin
+[INFO    ]   mode =  0.000000;   rms = 0.000000;   static_sig = 4.00
+[INFO    ] Saving static mask to disk: ./ACSSBC_1024x1024_1_staticMask.fits
+[INFO    ] ==== Processing Step Static Mask finished at 09:56:02.019 (03/06/2022)
+[INFO    ] ==== Processing Step  Subtract Sky  started at  09:56:02.020 (03/06/2022)
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for Sky Subtraction Step:
+[INFO    ] 	sky_bits :	0
+[INFO    ] 	skyclip :	5
+[INFO    ] 	skyfile :	
+[INFO    ] 	skylower :	None
+[INFO    ] 	skylsigma :	4.0
+[INFO    ] 	skymask_cat :	
+[INFO    ] 	skymethod :	localmin
+[INFO    ] 	skystat :	median
+[INFO    ] 	skysub :	True
+[INFO    ] 	skyupper :	None
+[INFO    ] 	skyuser :	
+[INFO    ] 	skyusigma :	4.0
+[INFO    ] 	skywidth :	0.1
+[INFO    ] 	use_static :	True
+[INFO    ] ***** skymatch started on 2022-06-03 09:56:02.079840
+[INFO    ]       Version 1.0.8
+[INFO    ] 
+[INFO    ] 'skymatch' task will apply computed sky differences to input image file(s).
+[INFO    ] 
+[INFO    ] NOTE: Computed sky values WILL NOT be subtracted from image data ('subtractsky'=False).
+[INFO    ] 'MDRIZSKY' header keyword will represent sky value *computed* from data.
+[INFO    ] 
+[INFO    ] -----  User specified keywords:  -----
+[INFO    ]        Sky Value Keyword:  'MDRIZSKY'
+[INFO    ]        Data Units Keyword: 'BUNIT'
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -----  Input file list:  -----
+[INFO    ] 
+[INFO    ]    **  Input image: 'jec401noq_flt.fits'
+[INFO    ]        EXT: 'SCI',1;	MASK: jec401noq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ]    **  Input image: 'jec401nrq_flt.fits'
+[INFO    ]        EXT: 'SCI',1;	MASK: jec401nrq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ]    **  Input image: 'jec401nvq_flt.fits'
+[INFO    ]        EXT: 'SCI',1;	MASK: jec401nvq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ]    **  Input image: 'jec401nxq_flt.fits'
+[INFO    ]        EXT: 'SCI',1;	MASK: jec401nxq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] -----  Sky statistics parameters:  -----
+[INFO    ]        statistics function: 'median'
+[INFO    ]        lower = None
+[INFO    ]        upper = None
+[INFO    ]        nclip = 5
+[INFO    ]        lsigma = 4.0
+[INFO    ]        usigma = 4.0
+[INFO    ]        binwidth = 0.1
+[INFO    ] 
+[INFO    ] -----  Data->Brightness conversion parameters for input files:  -----
+[INFO    ] 
+[INFO    ]    *   Image: jec401noq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNTS
+[INFO    ]              EXPTIME: 624.0 [s]
+[INFO    ]              Conversion factor (data->brightness):  2.5641024876863545
+[INFO    ] 
+[INFO    ]    *   Image: jec401nrq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNTS
+[INFO    ]              EXPTIME: 624.0 [s]
+[INFO    ]              Conversion factor (data->brightness):  2.5641024876863545
+[INFO    ] 
+[INFO    ]    *   Image: jec401nvq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNTS
+[INFO    ]              EXPTIME: 624.0 [s]
+[INFO    ]              Conversion factor (data->brightness):  2.5641024876863545
+[INFO    ] 
+[INFO    ]    *   Image: jec401nxq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNTS
+[INFO    ]              EXPTIME: 624.0 [s]
+[INFO    ]              Conversion factor (data->brightness):  2.5641024876863545
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -----  Computing sky values requested image extensions (detector chips):  -----
+[INFO    ] 
+[INFO    ]    *   Image:   'jec401noq_flt.fits['SCI',1]'  --  SKY = 0.0 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0   NEW MDRIZSKY = 0
+[INFO    ]    *   Image:   'jec401nrq_flt.fits['SCI',1]'  --  SKY = 0.0 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0   NEW MDRIZSKY = 0
+[INFO    ]    *   Image:   'jec401nvq_flt.fits['SCI',1]'  --  SKY = 0.0 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0   NEW MDRIZSKY = 0
+[INFO    ]    *   Image:   'jec401nxq_flt.fits['SCI',1]'  --  SKY = 0.0 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0   NEW MDRIZSKY = 0
+[INFO    ] ***** skymatch ended on 2022-06-03 09:56:02.363161
+[INFO    ] TOTAL RUN TIME: 0:00:00.283321
+[INFO    ] ==== Processing Step Subtract Sky finished at 09:56:02.417 (03/06/2022)
+[INFO    ] ==== Processing Step  Separate Drizzle  started at  09:56:02.418 (03/06/2022)
+[INFO    ] 
+[INFO    ] Single drizzle step not performed.
+[INFO    ] ==== Processing Step Separate Drizzle finished at 09:56:02.420 (03/06/2022)
+[INFO    ] ==== Processing Step  Create Median  started at  09:56:02.421 (03/06/2022)
+[INFO    ] 
+[INFO    ] Median combination step not performed.
+[INFO    ] ==== Processing Step  Blot  started at  09:56:02.424 (03/06/2022)
+[INFO    ] 
+[INFO    ] Blot step not performed.
+[INFO    ] ==== Processing Step Blot finished at 09:56:02.427 (03/06/2022)
+[INFO    ] ==== Processing Step  Driz_CR  started at  09:56:02.428 (03/06/2022)
+[INFO    ] 
+[INFO    ] Cosmic-ray identification (driz_cr) step not performed.
+[INFO    ] ==== Processing Step  Final Drizzle  started at  09:56:02.430 (03/06/2022)
+[INFO    ] 
+[INFO    ] Interpreted paramDict with single=False as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'wht_type': 'EXP', 'kernel': 'square', 'wt_scl': 'exptime', 'pixfrac': 1.0, 'fillval': None, 'maskval': None, 'bits': 16, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Final Drizzle Step:
+[INFO    ] 	bits :	16
+[INFO    ] 	build :	True
+[INFO    ] 	clean :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	fillval :	None
+[INFO    ] 	kernel :	square
+[INFO    ] 	maskval :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :	
+[INFO    ] 	wht_type :	EXP
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel square
+[INFO    ] Removing previous output product...
+[INFO    ] Running Drizzle to create output frame with WCS of: 
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'  
+[INFO    ] CRVAL : 319.60107476702854  0.29199923166248787  
+[INFO    ] CRPIX : 716.0  694.5  
+[INFO    ] CD1_1 CD1_2  : -3.7822096876335265e-06  5.824105077861544e-06  
+[INFO    ] CD2_1 CD2_2  : 5.824105077861544e-06  3.7822096876335265e-06  
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] -Drizzle input: jec401noq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.000000 to jec401noq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec401nrq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.000000 to jec401nrq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec401nvq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.000000 to jec401nvq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec401nxq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.000000 to jec401nxq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 153 points were outside the output image.
+[INFO    ] -Generating multi-extension output file:  f_drz.fits
+[INFO    ] Deleted all instances of WCS with key A in extensions [1]
+[INFO    ] Deleted all instances of WCS with key B in extensions [1]
+[INFO    ] Writing out to disk: f_drz.fits
+[INFO    ] ==== Processing Step Final Drizzle finished at 09:56:04.255 (03/06/2022)
+[INFO    ] 
+[INFO    ] AstroDrizzle Version 3.1.8 is finished processing at 09:56:04.257 (03/06/2022).
+[INFO    ] 
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ] 
+[INFO    ]          Initialization          0.4596 sec.
+[INFO    ]             Static Mask          0.1244 sec.
+[INFO    ]            Subtract Sky          0.3968 sec.
+[INFO    ]        Separate Drizzle          0.0022 sec.
+[INFO    ]           Create Median          0.0000 sec.
+[INFO    ]                    Blot          0.0029 sec.
+[INFO    ]                 Driz_CR          0.0000 sec.
+[INFO    ]           Final Drizzle          1.8254 sec.
+[INFO    ]    ====================          ====================
+[INFO    ]                   Total          2.8114 sec.
+[INFO    ] 
+[INFO    ] Removing intermediate files for jec401noq_flt.fits
+[INFO    ] Removing intermediate files for jec401nrq_flt.fits
+[INFO    ] Removing intermediate files for jec401nvq_flt.fits
+[INFO    ] Removing intermediate files for jec401nxq_flt.fits
+[INFO    ] Trailer file written to:  astrodrizzle.log

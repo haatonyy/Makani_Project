@@ -1,0 +1,121 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: X-Centroid, unit: pix, datatype: float64, format: 10.3f, description: Pixel Coordinate}
+# - {name: Y-Centroid, unit: pix, datatype: float64, format: 10.3f, description: Pixel Coordinate}
+# - {name: RA, unit: deg, datatype: float64, format: 13.7f, description: Sky coordinate at epoch of observation}
+# - {name: DEC, unit: deg, datatype: float64, format: 13.7f, description: Sky coordinate at epoch of observation}
+# - {name: ID, unit: '', datatype: int32, format: 7d, description: Catalog Object Identification Number}
+# - {name: CI, unit: mag(AB), datatype: float64, format: 7.3f, description: Concentration Index}
+# - {name: Flags, unit: '', datatype: int32, format: 5d, description: Numeric encoding for conditions on detected sources}
+# - {name: MagAp1, unit: mag(AB), datatype: float64, format: 7.3f, description: ABMAG of source based on the inner (smaller) aperture}
+# - {name: MagErrAp1, unit: mag(AB), datatype: float64, format: 7.3f, description: Error of MagAp1}
+# - {name: FluxAp1, unit: electron / s, datatype: float64, format: 10.4f, description: Flux of source based on the inner (smaller) aperture}
+# - {name: FluxErrAp1, unit: electron / s, datatype: float64, format: 10.4f, description: Error of FluxAp1}
+# - {name: MagAp2, unit: mag(AB), datatype: float64, format: 7.3f, description: ABMAG of source based on the outer (larger) aperture}
+# - {name: MagErrAp2, unit: mag(AB), datatype: float64, format: 7.3f, description: Error of MagAp2}
+# - {name: FluxAp2, unit: electron / s, datatype: float64, format: 10.4f, description: Flux of source based on the outer (larger) aperture}
+# - {name: FluxErrAp2, unit: electron / s, datatype: float64, format: 10.4f, description: Error of FluxAp2}
+# - {name: MSkyAp2, unit: electron / (pix s), datatype: float64, format: 7.3f, description: Sky estimate from an annulus outside Aperture
+#     2}
+# - {name: Bck, unit: electron / s, datatype: float32, format: 10.4f, description: Background at the position of the source centroid}
+# - {name: Area, unit: pix2, datatype: float64, format: 8.3f, description: Total unmasked area of the source segment}
+# - {name: FWHM, unit: pix, datatype: float64, format: 8.3f, description: Circularized FWHM of 2D Gaussian function having the same second-order
+#     central moments as the source}
+# - {name: MagSegment, unit: mag(AB), datatype: float32, format: 7.3f, description: Magnitude corresponding to FluxSegment}
+# - {name: FluxSegment, unit: electron / s, datatype: float32, format: 10.4f, description: Sum of unmasked data values in the source segment}
+# - {name: FluxSegmentErr, unit: electron / s, datatype: float64, format: 10.4f, description: 'Uncertainty of FluxSegment, propagated
+#     from the input error array'}
+# - {name: KronRadius, unit: pix, datatype: float64, format: 8.4f, description: The unscaled first-moment Kron radius}
+# - {name: Xmin, unit: pix, datatype: int64, format: 8.0f, description: Minimum X pixel within the minimal bounding box containing the
+#     source segment}
+# - {name: Ymin, unit: pix, datatype: int64, format: 8.0f, description: Minimum Y pixel within the minimal bounding box containing the
+#     source segment}
+# - {name: Xmax, unit: pix, datatype: int64, format: 8.0f, description: Maximum X pixel within the minimal bounding box containing the
+#     source segment}
+# - {name: Ymax, unit: pix, datatype: int64, format: 8.0f, description: Maximum Y pixel within the minimal bounding box containing the
+#     source segment}
+# - {name: X2, unit: pix2, datatype: float64, format: 8.4f, description: Variance along X}
+# - {name: Y2, unit: pix2, datatype: float64, format: 8.4f, description: Variance along Y}
+# - {name: XY, unit: pix2, datatype: float64, format: 8.4f, description: Covariance of position between X and Y}
+# - {name: CXX, unit: 1 / pix2, datatype: float64, format: 9.5f, description: SExtractor's ellipse parameter}
+# - {name: CYY, unit: 1 / pix2, datatype: float64, format: 9.5f, description: SExtractor's ellipse parameter}
+# - {name: CXY, unit: 1 / pix2, datatype: float64, format: 9.5f, description: SExtractor's ellipse parameter}
+# - {name: Elongation, unit: '', datatype: float64, format: 7.2f, description: Ratio of the lengths of the semi-major and semi-minor axes
+#     of the ellipse}
+# - {name: Ellipticity, unit: '', datatype: float64, format: 7.2f, description: Computed as 1 minus the inverse of the elongation}
+# - {name: Theta, unit: rad, datatype: float64, format: 8.3f, description: Angle between the X axis and the major axis of the 2D Gaussian
+#     function that has the same second-order moments as the source.}
+# meta:
+#   Aperture DEC: 0.2916033187818
+#   Aperture PA: 56.999378
+#   Aperture RA: 319.600301831
+#   CD1_1: -6.9444444444444e-06
+#   CD1_2: 0.0
+#   CD2_1: 0.0
+#   CD2_2: 6.9444444444444e-06
+#   CRPIX1: 973.3373838187
+#   CRPIX2: 978.96743728373
+#   CRVAL1: 319.6010731552
+#   CRVAL2: 0.29200171363111
+#   CTYPE1: RA---TAN
+#   CTYPE2: DEC--TAN
+#   CUNIT1: deg
+#   CUNIT2: deg
+#   Date Observed: '2021-05-27'
+#   Detector: SBC
+#   Exposure Start: 59361.28522789
+#   Filter 1: F150LP
+#   Filter 2: N/A
+#   Image File Name: HST_16231_01_ACS_SBC_F150LP_JEC401_DRZ.FITS
+#   Instrument: ACS
+#   MJDREF: 0.0
+#   Number of sources: 1
+#   Orientation: 0.0
+#   Proposal ID: 16231
+#   RADESYS: ICRS
+#   Target DEC: 0.2915
+#   Target Name: SDSS-J211824.06+001729.4
+#   Target RA: 319.60025
+#   Time Observed: 06:50:43
+#   Total Exposure Time: 2496.0
+#   WCSAXES: 2
+#   WCSNAME: IDC_v6m2008mj-GSC240
+#   WCSTYPE: undistorted a priori solution based on GSC240
+#   date: 2022-04-14 08:08:32 UTC
+#   h00: [' #==================================================================================================']
+#   h01: [' # All refereed publications based on data obtained from the HAP must carry the following footnote: ']
+#   h02: [' #                                                                                                  ']
+#   h03: [' #     Based on observations made with the NASA/ESA Hubble Space Telescope                          ']
+#   h04: [' #     and obtained from the Hubble Advanced Products collection generated                          ']
+#   h05: [' #     by the Space Telescope Science Institute (STScI/NASA).                                       ']
+#   h06: [' #                                                                                                  ']
+#   h07: [' # One copy of each paper resulting from data obtained from the HAP should be sent to the STScI.    ']
+#   h08: [' #==================================================================================================']
+#   h09: ['#=================================================================================================']
+#   h10: [IMPORTANT NOTES]
+#   h11: ['The X and Y coordinates in this table are 0-indexed (i.e. the origin is (0,0)).']
+#   h12: [RA and Dec values in this table are in sky coordinates (i.e. coordinates at the epoch of observation]
+#   h12.1: [and an undistorted a priori solution based on GSC240).]
+#   h13: [Magnitude values in this table are in the ABMAG system.]
+#   h14: ['Column titles in this table ending with Ap1 refer to the inner photometric aperture ']
+#   h14.1: ['(radius = 2.8000000000000185 pixels, 0.07 arcsec.']
+#   h15: ['Column titles in this table ending with Ap2 refer to the outer photometric aperture ']
+#   h15.1: ['(radius = 5.000000000000032 pixels, 0.125 arcsec.']
+#   h16: [CI = Concentration Index (CI) = MagAp1 - MagAp2.]
+#   h17: ['Flag Value Identification:']
+#   h17.1: ['    0 - Stellar Source (0.15 < CI < 0.45)']
+#   h17.2: ['    1 - Extended Source (CI > 0.45)']
+#   h17.3: ['    2 - Questionable Photometry (Single-Pixel Saturation)']
+#   h17.4: ['    4 - Questionable Photometry (Multi-Pixel Saturation)']
+#   h17.5: ['    8 - Faint Detection Limit']
+#   h17.6: ['   16 - Hot pixels (CI < 0.15)']
+#   h17.7: ['   32 - False Detection Swarm Around Saturated Source']
+#   h17.8: ['   64 - False Detections Near Image Edge']
+#   h17.9: ['  128 - Bleeding and Cosmic Rays']
+#   h18: ['#=================================================================================================']
+#   version: {Python: 3.8.12, astropy: 5.0.2, bottleneck: null, gwcs: null, matplotlib: 3.5.1, numpy: 1.22.3, photutils: 1.3.0, scipy: 1.8.0,
+#     skimage: 0.19.2, sklearn: 1.0.2}
+# schema: astropy-2.0
+X-Centroid Y-Centroid RA DEC ID CI Flags MagAp1 MagErrAp1 FluxAp1 FluxErrAp1 MagAp2 MagErrAp2 FluxAp2 FluxErrAp2 MSkyAp2 Bck Area FWHM MagSegment FluxSegment FluxSegmentErr KronRadius Xmin Ymin Xmax Ymax X2 Y2 XY CXX CYY CXY Elongation Ellipticity Theta
+1048.7073011628938 904.927983622565 319.60054280169004 0.29149449519044834 1 0.7383470134908379 1 23.899318563585556 0.0068216855910382046 0.3294886623463295 0.00207024782199356 23.160971550094718 0.006286144566382605 0.6503981249935717 0.0037657701385408267 0.0002384744523360624 0.0 2236.0 22.22300187294424 22.099562 1.7287924 1.314877156698326 1.687750995313668 1014 882 1078 930 126.89063556845066 51.232361284081655 -2.484661652117727 0.00788829326630593 0.01953746657433284 0.0007651312290983021 1.5755340581958912 0.36529458389171376 -1.8789278568626764

@@ -1,0 +1,90 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: X-Center, unit: pix, datatype: float64, format: 10.3f, description: Pixel Coordinate}
+# - {name: Y-Center, unit: pix, datatype: float64, format: 10.3f, description: Pixel Coordinate}
+# - {name: RA, unit: deg, datatype: float64, format: 13.7f, description: Sky coordinate at epoch of observation}
+# - {name: DEC, unit: deg, datatype: float64, format: 13.7f, description: Sky coordinate at epoch of observation}
+# - {name: ID, unit: '', datatype: int64, format: 7d, description: Catalog Object Identification Number}
+# - {name: MagAp1, unit: mag(AB), datatype: float64, format: 7.3f, description: ABMAG of source based on the inner (smaller) aperture}
+# - {name: MagErrAp1, unit: mag(AB), datatype: float64, format: 7.3f, description: Error of MagAp1}
+# - {name: MagAp2, unit: mag(AB), datatype: float64, format: 7.3f, description: ABMAG of source based on the outer (larger) aperture}
+# - {name: MagErrAp2, unit: mag(AB), datatype: float64, format: 7.3f, description: Error of MagAp2}
+# - {name: MSkyAp2, unit: electron / (pix s), datatype: float64, format: 7.3f, description: Sky estimate from an annulus outside Aperture
+#     2}
+# - {name: StdevAp2, unit: electron / (pix s), datatype: float64, format: 7.3f, description: Standard deviation of sky estimate from annulus
+#     outside Aperture 2}
+# - {name: FluxAp2, unit: electron / s, datatype: float64, format: 10.4f, description: Flux of source based on the outer (larger) aperture}
+# - {name: CI, unit: mag(AB), datatype: float64, format: 7.3f, description: Concentration Index}
+# - {name: Flags, unit: '', datatype: int64, format: 5d, description: Numeric encoding for conditions on detected sources}
+# meta: !!omap
+# - h00: [' #==================================================================================================']
+# - h01: [' # All refereed publications based on data obtained from the HAP must carry the following footnote: ']
+# - h02: [' #                                                                                                  ']
+# - h03: [' #     Based on observations made with the NASA/ESA Hubble Space Telescope                          ']
+# - h04: [' #     and obtained from the Hubble Advanced Products collection generated                          ']
+# - h05: [' #     by the Space Telescope Science Institute (STScI/NASA).                                       ']
+# - h06: [' #                                                                                                  ']
+# - h07: [' # One copy of each paper resulting from data obtained from the HAP should be sent to the STScI.    ']
+# - h08: [' #==================================================================================================']
+# - {WCSNAME: IDC_v6m2008mj-GSC240}
+# - {WCSTYPE: undistorted a priori solution based on GSC240}
+# - {Proposal ID: 16231}
+# - {Image File Name: HST_16231_01_ACS_SBC_F150LP_JEC401_DRZ.FITS}
+# - {Target Name: SDSS-J211824.06+001729.4}
+# - {Date Observed: '2021-05-27'}
+# - {Time Observed: '06:50:43'}
+# - {Instrument: ACS}
+# - {Detector: SBC}
+# - {Target RA: 319.60025}
+# - {Target DEC: 0.2915}
+# - {Orientation: 0.0}
+# - {Aperture RA: 319.600301831}
+# - {Aperture DEC: 0.2916033187818}
+# - {Aperture PA: 56.999378}
+# - {Exposure Start: 59361.28522789}
+# - {Total Exposure Time: 2496.0}
+# - {Filter 1: F150LP}
+# - {Filter 2: N/A}
+# - {WCSAXES: 2}
+# - {CRPIX1: 973.3373838187}
+# - {CRPIX2: 978.96743728373}
+# - {CUNIT1: deg}
+# - {CUNIT2: deg}
+# - {CTYPE1: RA---TAN}
+# - {CTYPE2: DEC--TAN}
+# - {CRVAL1: 319.6010731552}
+# - {CRVAL2: 0.29200171363111}
+# - {MJDREF: 0.0}
+# - {RADESYS: ICRS}
+# - {CD1_1: -6.9444444444444e-06}
+# - {CD1_2: 0.0}
+# - {CD2_1: 0.0}
+# - {CD2_2: 6.9444444444444e-06}
+# - {Number of sources: 2}
+# - h09: ['#=================================================================================================']
+# - h10: [IMPORTANT NOTES]
+# - h11: ['The X and Y coordinates in this table are 0-indexed (i.e. the origin is (0,0)).']
+# - h12: [RA and Dec values in this table are in sky coordinates (i.e. coordinates at the epoch of observation]
+# - h12.1: [and an undistorted a priori solution based on GSC240).]
+# - h13: [Magnitude values in this table are in the ABMAG system.]
+# - h14: ['Column titles in this table ending with Ap1 refer to the inner photometric aperture ']
+# - h14.1: ['(radius = 2.8000000000000185 pixels, 0.07 arcsec.']
+# - h15: ['Column titles in this table ending with Ap2 refer to the outer photometric aperture ']
+# - h15.1: ['(radius = 5.000000000000032 pixels, 0.125 arcsec.']
+# - h16: [CI = Concentration Index (CI) = MagAp1 - MagAp2.]
+# - h17: ['Flag Value Identification:']
+# - h17.1: ['    0 - Stellar Source (0.15 < CI < 0.45)']
+# - h17.2: ['    1 - Extended Source (CI > 0.45)']
+# - h17.3: ['    2 - Questionable Photometry (Single-Pixel Saturation)']
+# - h17.4: ['    4 - Questionable Photometry (Multi-Pixel Saturation)']
+# - h17.5: ['    8 - Faint Detection Limit']
+# - h17.6: ['   16 - Hot pixels (CI < 0.15)']
+# - h17.7: ['   32 - False Detection Swarm Around Saturated Source']
+# - h17.8: ['   64 - False Detections Near Image Edge']
+# - h17.9: ['  128 - Bleeding and Cosmic Rays']
+# - h18: ['#=================================================================================================']
+# schema: astropy-2.0
+X-Center Y-Center RA DEC ID MagAp1 MagErrAp1 MagAp2 MagErrAp2 MSkyAp2 StdevAp2 FluxAp2 CI Flags
+1034.0580476976097 903.3707511794938 319.60064453393386 0.2914836810805824 1 25.65060234152173 0.027998460072804605 24.930668699826438 0.026194436144273373 6.328284837218588e-05 0.00025620823750515314 0.12743843241377428 0.7199336416952917 1
+1026.5037573624822 905.3660011376626 319.6006969949618 0.29149753698495356 2 26.306837675913176 0.046210568748181705 25.398993009942355 0.03624014136871483 -8.32772969691803e-05 0.00021104002888331714 0.08278863014556799 0.9078446659708206 1

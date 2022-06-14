@@ -1,0 +1,340 @@
+[INFO    ] Setting up logfile :  total_visit1349_drz.log
+[INFO    ] AstroDrizzle log file: total_visit1349_drz.log
+[INFO    ] AstroDrizzle Version 3.4.2 started at: 09:52:51.640 (13/06/2022)
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] ==== Processing Step  Initialization  started at  09:52:51.648 (13/06/2022)
+[INFO    ] 
+[INFO    ] Preserving original of:  4gvq.fits as  OrIg_files/4gvq.fits
+[INFO    ] Preserving original of:  4gwq.fits as  OrIg_files/4gwq.fits
+[INFO    ] Preserving original of:  4gxq.fits as  OrIg_files/4gxq.fits
+[INFO    ] Preserving original of:  4gyq.fits as  OrIg_files/4gyq.fits
+[INFO    ] Preserving original of:  9i7q.fits as  OrIg_files/9i7q.fits
+[INFO    ] Preserving original of:  9i8q.fits as  OrIg_files/9i8q.fits
+[INFO    ] Preserving original of:  9i9q.fits as  OrIg_files/9i9q.fits
+[INFO    ] Preserving original of:  9iaq.fits as  OrIg_files/9iaq.fits
+[INFO    ] Executing serially
+[INFO    ] Setting up output name: total_visit1349_test9_drz.fits
+[INFO    ] ##############################################################################
+[INFO    ] #                                                                            #
+[INFO    ] # “minmed” is highly recommended for three images,                           #
+[INFO    ] #  and is good for four to six images,                                       #
+[INFO    ] #  but should be avoided for ten or more images.                             #
+[INFO    ] #                                                                            #
+[INFO    ] ##############################################################################
+[INFO    ] -Creating imageObject List as input for processing steps.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reset bit values of 4096 to a value of 0 in 1noq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 1nrq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 1nvq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 1nxq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 3ibq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 3icq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 3idq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 3ieq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 4gvq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 4gwq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 4gxq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 4gyq.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 9i7q.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 9i8q.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 9i9q.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in 9iaq.fits[DQ,1]
+[INFO    ] -Creating output WCS.
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'  
+[INFO    ] CRVAL : 319.60072654272636  0.2915652990259774  
+[INFO    ] CRPIX : 974.0  980.5  
+[INFO    ] CD1_1 CD1_2  : -6.944444444444445e-06  -4.235164736271502e-22  
+[INFO    ] CD2_1 CD2_2  : -4.235164736271502e-22  6.944444444444445e-06  
+[INFO    ] NAXIS : 1947  1960
+[INFO    ] ********************************************************************************
+[INFO    ] *
+[INFO    ] *  Estimated memory usage:  up to 51 Mb.
+[INFO    ] *  Output image size:       1947 X 1960 pixels. 
+[INFO    ] *  Output image file:       ~ 43 Mb. 
+[INFO    ] *  Cores available:         1
+[INFO    ] *
+[INFO    ] ********************************************************************************
+[INFO    ] ==== Processing Step Initialization finished at 09:52:53.729 (13/06/2022)
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	build :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	context :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	group :	
+[INFO    ] 	in_memory :	False
+[INFO    ] 	input :	['1noq.fits', '1nrq.fits', '1nvq.fits', '1nxq.fits', '3ibq.fits', '3icq.fits', '3idq.fits', '3ieq.fits', '4gvq.fits', '4gwq.fits', '4gxq.fits', '4gyq.fits', '9i7q.fits', '9i8q.fits', '9i9q.fits', '9iaq.fits']
+[INFO    ] 	mdriztab :	False
+[INFO    ] 	num_cores :	1
+[INFO    ] 	output :	total_visit1349_test9
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	resetbits :	4096
+[INFO    ] 	rules_file :	
+[INFO    ] 	runfile :	total_visit1349_drz.log
+[INFO    ] 	stepsize :	10
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	wcskey :	
+[INFO    ] ==== Processing Step  Static Mask  started at  09:52:53.737 (13/06/2022)
+[INFO    ] 
+[INFO    ] Static Mask step not performed.
+[INFO    ] ==== Processing Step Static Mask finished at 09:52:53.739 (13/06/2022)
+[INFO    ] ==== Processing Step  Subtract Sky  started at  09:52:53.740 (13/06/2022)
+[INFO    ] 
+[INFO    ] Sky Subtraction step not performed.
+[INFO    ] ==== Processing Step Subtract Sky finished at 09:52:54.108 (13/06/2022)
+[INFO    ] ==== Processing Step  Separate Drizzle  started at  09:52:54.10 (13/06/2022)
+[INFO    ] 
+[INFO    ] Single drizzle step not performed.
+[INFO    ] ==== Processing Step Separate Drizzle finished at 09:52:54.110 (13/06/2022)
+[INFO    ] ==== Processing Step  Create Median  started at  09:52:54.111 (13/06/2022)
+[INFO    ] 
+[INFO    ] Median combination step not performed.
+[INFO    ] ==== Processing Step  Blot  started at  09:52:54.113 (13/06/2022)
+[INFO    ] 
+[INFO    ] Blot step not performed.
+[INFO    ] ==== Processing Step Blot finished at 09:52:54.114 (13/06/2022)
+[INFO    ] ==== Processing Step  Driz_CR  started at  09:52:54.115 (13/06/2022)
+[INFO    ] 
+[INFO    ] Cosmic-ray identification (driz_cr) step not performed.
+[INFO    ] ==== Processing Step  Final Drizzle  started at  09:52:54.116 (13/06/2022)
+[INFO    ] 
+[INFO    ] Interpreted paramDict with single=False as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'wht_type': 'EXP', 'kernel': 'square', 'wt_scl': 'exptime', 'pixfrac': 1.0, 'fillval': None, 'maskval': None, 'bits': 0, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Final Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	True
+[INFO    ] 	clean :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	fillval :	None
+[INFO    ] 	kernel :	square
+[INFO    ] 	logfile :	total_visit1349_drz.log
+[INFO    ] 	maskval :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :	
+[INFO    ] 	wht_type :	EXP
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel square
+[INFO    ] Running Drizzle to create output frame with WCS of: 
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'  
+[INFO    ] CRVAL : 319.60072654272636  0.2915652990259774  
+[INFO    ] CRPIX : 974.0  980.5  
+[INFO    ] CD1_1 CD1_2  : -6.944444444444445e-06  -4.235164736271502e-22  
+[INFO    ] CD2_1 CD2_2  : -4.235164736271502e-22  6.944444444444445e-06  
+[INFO    ] NAXIS : 1947  1960
+[INFO    ] -Drizzle input: 1noq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 1428 points were outside the output image.
+[INFO    ] -Drizzle input: 1nrq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 88 points were outside the output image.
+[INFO    ] -Drizzle input: 1nvq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 150 points were outside the output image.
+[INFO    ] -Drizzle input: 1nxq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 1513 points were outside the output image.
+[INFO    ] -Drizzle input: 3ibq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 140 points were outside the output image.
+[INFO    ] -Drizzle input: 3icq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 1430 points were outside the output image.
+[INFO    ] -Drizzle input: 3idq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 1302 points were outside the output image.
+[INFO    ] -Drizzle input: 3ieq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 102 points were outside the output image.
+[INFO    ] -Drizzle input: 4gvq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 25972 points were outside the output image.
+[INFO    ] -Drizzle input: 4gwq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 17042 points were outside the output image.
+[INFO    ] -Drizzle input: 4gxq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 18809 points were outside the output image.
+[INFO    ] -Drizzle input: 4gyq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 27975 points were outside the output image.
+[INFO    ] -Drizzle input: 9i7q.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: 9i8q.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: 9i9q.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: 9iaq.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Generating multi-extension output file:  total_visit1349_test9_drz.fits
+[INFO    ] Deleted all instances of WCS with key A in extensions [1]
+[INFO    ] Deleted all instances of WCS with key B in extensions [1]
+[INFO    ] Writing out to disk: total_visit1349_test9_drz.fits
+[WARNING ] /Users/ha/.local/lib/python3.9/site-packages/astropy/io/fits/card.py:1008: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[INFO    ] ==== Processing Step Final Drizzle finished at 09:52:59.75 (13/06/2022)
+[INFO    ] 
+[INFO    ] AstroDrizzle Version 3.4.2 is finished processing at 09:52:59.756 (13/06/2022).
+[INFO    ] 
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ] 
+[INFO    ]          Initialization          2.0810 sec.
+[INFO    ]             Static Mask          0.0019 sec.
+[INFO    ]            Subtract Sky          0.3680 sec.
+[INFO    ]        Separate Drizzle          0.0015 sec.
+[INFO    ]           Create Median          0.0000 sec.
+[INFO    ]                    Blot          0.0013 sec.
+[INFO    ]                 Driz_CR          0.0000 sec.
+[INFO    ]           Final Drizzle          5.6378 sec.
+[INFO    ]    ====================          ====================
+[INFO    ]                   Total          8.0915 sec.
+[INFO    ] 
+[INFO    ] Removing intermediate files for 1noq.fits
+[INFO    ] Removing intermediate files for 1nrq.fits
+[INFO    ] Removing intermediate files for 1nvq.fits
+[INFO    ] Removing intermediate files for 1nxq.fits
+[INFO    ] Removing intermediate files for 3ibq.fits
+[INFO    ] Removing intermediate files for 3icq.fits
+[INFO    ] Removing intermediate files for 3idq.fits
+[INFO    ] Removing intermediate files for 3ieq.fits
+[INFO    ] Removing intermediate files for 4gvq.fits
+[INFO    ] Removing intermediate files for 4gwq.fits
+[INFO    ] Removing intermediate files for 4gxq.fits
+[INFO    ] Removing intermediate files for 4gyq.fits
+[INFO    ] Removing intermediate files for 9i7q.fits
+[INFO    ] Removing intermediate files for 9i8q.fits
+[INFO    ] Removing intermediate files for 9i9q.fits
+[INFO    ] Removing intermediate files for 9iaq.fits
+[INFO    ] Trailer file written to:  total_visit1349_drz.log

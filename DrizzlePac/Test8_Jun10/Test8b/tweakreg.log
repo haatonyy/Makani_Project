@@ -1,0 +1,94 @@
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 14:20:10.057 (12/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	['hst_16231_01_acs_sbc_f150lp_jec401no_flt.fits', 'hst_16231_01_acs_sbc_f150lp_jec401nr_flt.fits', 'hst_16231_01_acs_sbc_f150lp_jec401nv_flt.fits', 'hst_16231_01_acs_sbc_f150lp_jec401nx_flt.fits', 'hst_16231_03_acs_sbc_f150lp_jec403ib_flt.fits', 'hst_16231_03_acs_sbc_f150lp_jec403ic_flt.fits', 'hst_16231_03_acs_sbc_f150lp_jec403id_flt.fits', 'hst_16231_03_acs_sbc_f150lp_jec403ie_flt.fits']
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	True
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Restoring WCS solutions to original state using updatewcs...
+[INFO    ] 
+[INFO    ] AstrometryDB service available...
+[INFO    ] Trailer file written to:  tweakreg.log
+[ERROR   ] An unhandled exception ocurred:
+Traceback (most recent call last):
+  File "/Users/ha/.local/lib/python3.9/site-packages/drizzlepac/util.py", line 230, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/ha/.local/lib/python3.9/site-packages/drizzlepac/tweakreg.py", line 175, in run
+    updatewcs.updatewcs(filenames)
+  File "/Users/ha/.local/lib/python3.9/site-packages/stwcs/updatewcs/__init__.py", line 144, in updatewcs
+    acorr = apply_corrections.setCorrections(f, vacorr=vacorr, tddcorr=tddcorr,
+  File "/Users/ha/.local/lib/python3.9/site-packages/stwcs/updatewcs/apply_corrections.py", line 67, in setCorrections
+    if not foundIDCTAB(fname):
+  File "/Users/ha/.local/lib/python3.9/site-packages/stwcs/updatewcs/apply_corrections.py", line 119, in foundIDCTAB
+    idctab = fileutil.osfn(idctab)
+  File "/Users/ha/.local/lib/python3.9/site-packages/stsci/tools/fileutil.py", line 1319, in osfn
+    ename = Expand(filename)
+  File "/Users/ha/.local/lib/python3.9/site-packages/stsci/tools/fileutil.py", line 1464, in Expand
+    outlist.append(os.path.expanduser(_expand1(word, noerror=noerror)))
+  File "/Users/ha/.local/lib/python3.9/site-packages/stsci/tools/fileutil.py", line 1503, in _expand1
+    raise ValueError("Undefined variable `%s' in string `%s'" %
+ValueError: Undefined variable `jref' in string `jref$v6m2008mj_idc.fits'
+[INFO    ] Setting up logfile :  tweakreg.log
+[INFO    ] TweakReg Version 3.4.2 started at: 14:24:58.471 (12/06/2022) 
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.9.12 (main, Jun  1 2022, 06:36:29) 
+[INFO    ] numpy Version -> 1.22.4 
+[INFO    ] astropy Version -> 5.1 
+[INFO    ] stwcs Version -> 1.7.2 
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	clean :	False
+[INFO    ] 	enforce_user_order :	True
+[INFO    ] 	exclusions :	
+[INFO    ] 	expand_refcat :	False
+[INFO    ] 	input :	hst_16231_01_acs_sbc_f150lp_jec401no_flt.fits
+[INFO    ] 	interactive :	False
+[INFO    ] 	refimage :	
+[INFO    ] 	runfile :	tweakreg.log
+[INFO    ] 	updatewcs :	True
+[INFO    ] 	verbose :	False
+[INFO    ] 	writecat :	True
+[INFO    ] 
+[INFO    ] Restoring WCS solutions to original state using updatewcs...
+[INFO    ] 
+[INFO    ] AstrometryDB service available...
+[INFO    ] Trailer file written to:  tweakreg.log
+[ERROR   ] An unhandled exception ocurred:
+Traceback (most recent call last):
+  File "/Users/ha/.local/lib/python3.9/site-packages/drizzlepac/util.py", line 230, in wrapper
+    result = func(*args, **kwargs)
+  File "/Users/ha/.local/lib/python3.9/site-packages/drizzlepac/tweakreg.py", line 175, in run
+    updatewcs.updatewcs(filenames)
+  File "/Users/ha/.local/lib/python3.9/site-packages/stwcs/updatewcs/__init__.py", line 144, in updatewcs
+    acorr = apply_corrections.setCorrections(f, vacorr=vacorr, tddcorr=tddcorr,
+  File "/Users/ha/.local/lib/python3.9/site-packages/stwcs/updatewcs/apply_corrections.py", line 67, in setCorrections
+    if not foundIDCTAB(fname):
+  File "/Users/ha/.local/lib/python3.9/site-packages/stwcs/updatewcs/apply_corrections.py", line 119, in foundIDCTAB
+    idctab = fileutil.osfn(idctab)
+  File "/Users/ha/.local/lib/python3.9/site-packages/stsci/tools/fileutil.py", line 1319, in osfn
+    ename = Expand(filename)
+  File "/Users/ha/.local/lib/python3.9/site-packages/stsci/tools/fileutil.py", line 1464, in Expand
+    outlist.append(os.path.expanduser(_expand1(word, noerror=noerror)))
+  File "/Users/ha/.local/lib/python3.9/site-packages/stsci/tools/fileutil.py", line 1503, in _expand1
+    raise ValueError("Undefined variable `%s' in string `%s'" %
+ValueError: Undefined variable `jref' in string `jref$v6m2008mj_idc.fits'
