@@ -1,0 +1,53 @@
+2022061113757-I-INFO -------------- Data Partitioning Started: jelg02pyq ------------
+2022061113757-I-INFO Partitioning from POD file: lz_bd22_244_0000200907
+2022061113757-I-INFO OSF_PROCESSING: for jelg02pyq
+2022061113757-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2022061113757-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1087, expected pkts = 1088 (single readout), total pkts = 1088
+2022061113757-I-INFO DPI_task::DP_close_oldobs:  1087 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2022061113757-I-INFO DP_close_files:  ...jelg02pyq.pkx was closed
+2022061113757-I-INFO DP_close_files:  ...jelg02pyq.bdx was closed
+2022061113757-I-INFO DP_close_files:  ...jelg02pyq.ulx was closed
+2022061113757-I-INFO DP_close_files:  ...jelg02pyq.pki was closed
+2022061113757-I-INFO DP_close_files:  ...jelg02pyq.uli was closed
+2022061113757-I-INFO DPI_task::DP_close_oldobs:  Copied ...jelg02q8q.shx to ...jelg02pyq.shx
+2022061113757-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   jelg02pyq ------------
+2022061114213-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: jelg02pyq ------------
+2022061114213-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: jelg02pyq ------------
+2022061114213-I-INFO dv_DataValidation:  -------------- Data Validation Started: jelg02pyq ------------
+2022061114213-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2022.061:06:06:18
+2022061114213-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2022.061:06:06:18 using yurintab date: 2018.249:22:15:00
+2022061114213-I-INFO dv_DataValidation:  -------------- Data Validation Completed: jelg02pyq ------------
+2022061114213-I-INFO ----------- World Coordinate System Started: jelg02pyq ---------
+2022061114213-I-INFO Running code ready for new ACS subarrays
+2022061114213-I-INFO ----------- World Coordinate System Ended:   jelg02pyq ---------
+2022061114213-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: jelg02pyq ------------
+2022061114213-I-INFO GC_load_...s: ...jelg02pyq.dvx maxgroup=1
+2022061114213-I-INFO GC_load_...s: ...jelg02pyq.dgx maxgroup=0
+2022061114213-I-INFO GC_load_...s: ...jelg02pyq.dcx maxgroup=1
+2022061114213-I-INFO GCJ_exptime: expstart at 59640.254411
+2022061114213-I-INFO GCJ_exptime: EXPSTART set to   5.964025441074E+04 (mjd) 
+2022061114213-I-INFO GCJ_exptime: EXPEND   set to   5.964026599259E+04 (mjd) 
+2022061114213-I-INFO GCJ_exptime: TDFBEGIN is TDF Down
+2022061114213-I-INFO GCJ_exptime: EXPTIME  set to          1000.000000 (sec) 
+2022061114213-I-INFO GCJ_exptime: SHUTRPOS currently set to N/A
+2022061114213-I-INFO GCJ_exptime: SHUTRPOS value remains N/A (untoggled) 
+2022061114213-I-INFO GCJ_exptime: DARKTIME set to             0.000000 (sec)
+2022061114213-I-INFO GCJ_exptime: EXPFLAG  set to NORMAL
+2022061114213-I-INFO GCJ_exptime: planned exptime was:          1000.000000 seconds
+2022061114214-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jelg02pyq ------------
+2022061114228-I-INFO-exposure_times-Start ------ Exposure Times Updater for jelg02pyq ------
+2022061114228-I-INFO-exposure_times-Using jelg02pyq_raw.fits
+2022061114228-I-INFO-exposure_times-For jelg02pyq, start 2022.061:06:06:21, end 2022.061:06:23:01
+2022061114228-I-INFO-exposure_times-Updated 1 qolink_sms exposure times record.
+2022061114228-I-INFO-exposure_times-  End ------ Exposure Times Updater for jelg02pyq ------
+2022061114247 INFO src=ac_xxx_OWL.run_task fsn=jelg02pyq msg="-------------- After Calibration Started for   jelg02pyq --------------"
+2022061114247 INFO src=ac_xxx_OWL-asn_product_status.banner_start fsn=jelg02pyq msg="Start ------  Association Product Status Updater for jelg02pyq  ------"
+2022061114247 INFO src=ac_xxx_OWL-asn_product_status.asn_status_update fsn=jelg02pyq msg="asn_root jelg02pyq does NOT end in 0.  No update necessary.  Goodbye."
+2022061114247 INFO src=ac_xxx_OWL-asn_product_status.banner_end_no_op fsn=jelg02pyq msg="  End ------  Association Product Status Updater Nothing to do for jelg02pyq +  ------"
+2022061114247 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2022061114247 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=jelg02pyq msg="Opening connection to ..., ..."
+2022061114247 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=jelg02pyq msg="0 rows found for association jelg02pyq"
+2022061114247 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=jelg02pyq msg="returning 16529 for jelg02pyq"
+2022061114247 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=jelg02pyq msg="HstScienceDataset(archive_product='jelg02pyq', archive_product_type='SINGLETON', dataset_type='single', hst_db=<hst_missionquery.HST_Mission_db object at 0x2b79ba9d8610>, instrument='acs', ipppssoot='jelg02pyq', log=<Logfile.Logfile object at 0x2b79ba9d8520>, product_exposures={'jelg02pyq': 'SINGLETON'}, proposal_id='16529', subproducts={})"
+2022061114247 INFO src=ac_xxx_OWL.update_quality_...s fsn=jelg02pyq msg="No pdq_summary_update records found for jelg02pyq."
+2022061114247 INFO src=ac_xxx_OWL.run_task fsn=jelg02pyq msg="-------------- After Calibration Completed for jelg02pyq --------------"

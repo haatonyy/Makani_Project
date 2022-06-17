@@ -1,0 +1,53 @@
+2022061160216-I-INFO -------------- Data Partitioning Started: jelg02qaq ------------
+2022061160216-I-INFO Partitioning from POD file: lz_bd23_244_0000200949
+2022061160216-I-INFO OSF_PROCESSING: for jelg02qaq
+2022061160216-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2022061160216-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1087, expected pkts = 1088 (single readout), total pkts = 1088
+2022061160216-I-INFO DPI_task::DP_close_oldobs:  1087 Science packets, 1 Engineering (ULX) packets, 0 Bad pkts
+2022061160216-I-INFO DP_close_files:  ...jelg02qaq.pkx was closed
+2022061160216-I-INFO DP_close_files:  ...jelg02qaq.bdx was closed
+2022061160216-I-INFO DP_close_files:  ...jelg02qaq.ulx was closed
+2022061160216-I-INFO DP_close_files:  ...jelg02qaq.pki was closed
+2022061160216-I-INFO DP_close_files:  ...jelg02qaq.uli was closed
+2022061160216-I-INFO DPI_task::DP_close_oldobs:  Copied ...jelg02rvq.shx to ...jelg02qaq.shx
+2022061160216-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   jelg02qaq ------------
+2022061160703-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: jelg02qaq ------------
+2022061160704-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: jelg02qaq ------------
+2022061160704-I-INFO dv_DataValidation:  -------------- Data Validation Started: jelg02qaq ------------
+2022061160704-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2022.061:09:11:39
+2022061160704-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2022.061:09:11:39 using yurintab date: 2018.249:22:15:00
+2022061160704-I-INFO dv_DataValidation:  -------------- Data Validation Completed: jelg02qaq ------------
+2022061160704-I-INFO ----------- World Coordinate System Started: jelg02qaq ---------
+2022061160704-I-INFO Running code ready for new ACS subarrays
+2022061160704-I-INFO ----------- World Coordinate System Ended:   jelg02qaq ---------
+2022061160704-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: jelg02qaq ------------
+2022061160704-I-INFO GC_load_...s: ...jelg02qaq.dvx maxgroup=1
+2022061160704-I-INFO GC_load_...s: ...jelg02qaq.dgx maxgroup=0
+2022061160704-I-INFO GC_load_...s: ...jelg02qaq.dcx maxgroup=1
+2022061160704-I-INFO GCJ_exptime: expstart at 59640.383126
+2022061160704-I-INFO GCJ_exptime: EXPSTART set to   5.964038312592E+04 (mjd) 
+2022061160704-I-INFO GCJ_exptime: EXPEND   set to   5.964039470740E+04 (mjd) 
+2022061160704-I-INFO GCJ_exptime: TDFBEGIN is TDF Down
+2022061160704-I-INFO GCJ_exptime: EXPTIME  set to          1000.000000 (sec) 
+2022061160704-I-INFO GCJ_exptime: SHUTRPOS currently set to N/A
+2022061160704-I-INFO GCJ_exptime: SHUTRPOS value remains N/A (untoggled) 
+2022061160704-I-INFO GCJ_exptime: DARKTIME set to             0.000000 (sec)
+2022061160704-I-INFO GCJ_exptime: EXPFLAG  set to NORMAL
+2022061160704-I-INFO GCJ_exptime: planned exptime was:          1000.000000 seconds
+2022061160704-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jelg02qaq ------------
+2022061160721-I-INFO-exposure_times-Start ------ Exposure Times Updater for jelg02qaq ------
+2022061160721-I-INFO-exposure_times-Using jelg02qaq_raw.fits
+2022061160721-I-INFO-exposure_times-For jelg02qaq, start 2022.061:09:11:42, end 2022.061:09:28:22
+2022061160721-I-INFO-exposure_times-Updated 1 qolink_sms exposure times record.
+2022061160721-I-INFO-exposure_times-  End ------ Exposure Times Updater for jelg02qaq ------
+2022061160742 INFO src=ac_xxx_OWL.run_task fsn=jelg02qaq msg="-------------- After Calibration Started for   jelg02qaq --------------"
+2022061160742 INFO src=ac_xxx_OWL-asn_product_status.banner_start fsn=jelg02qaq msg="Start ------  Association Product Status Updater for jelg02qaq  ------"
+2022061160742 INFO src=ac_xxx_OWL-asn_product_status.asn_status_update fsn=jelg02qaq msg="asn_root jelg02qaq does NOT end in 0.  No update necessary.  Goodbye."
+2022061160742 INFO src=ac_xxx_OWL-asn_product_status.banner_end_no_op fsn=jelg02qaq msg="  End ------  Association Product Status Updater Nothing to do for jelg02qaq +  ------"
+2022061160743 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2022061160743 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=jelg02qaq msg="Opening connection to ..., ..."
+2022061160743 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=jelg02qaq msg="0 rows found for association jelg02qaq"
+2022061160743 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=jelg02qaq msg="returning 16529 for jelg02qaq"
+2022061160743 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=jelg02qaq msg="HstScienceDataset(archive_product='jelg02qaq', archive_product_type='SINGLETON', dataset_type='single', hst_db=<hst_missionquery.HST_Mission_db object at 0x2b2468cf87c0>, instrument='acs', ipppssoot='jelg02qaq', log=<Logfile.Logfile object at 0x2b2468cf8460>, product_exposures={'jelg02qaq': 'SINGLETON'}, proposal_id='16529', subproducts={})"
+2022061160743 INFO src=ac_xxx_OWL.update_quality_...s fsn=jelg02qaq msg="No pdq_summary_update records found for jelg02qaq."
+2022061160743 INFO src=ac_xxx_OWL.run_task fsn=jelg02qaq msg="-------------- After Calibration Completed for jelg02qaq --------------"
