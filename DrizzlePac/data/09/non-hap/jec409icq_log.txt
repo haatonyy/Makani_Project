@@ -1,0 +1,116 @@
+2022109135721-I-INFO -------------- Data Partitioning Started: jec409icq ------------
+2022109135721-I-INFO Partitioning from POD file: lz_bd0a_264_0000208313
+2022109135721-I-INFO OSF_PROCESSING: for jec409icq
+2022109135721-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2022109135721-I-INFO DP_process_UDL Scheduled MEMORY DUMP: jec409icq
+2022109135721-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1156, expected pkts = 1088 (single readout), total pkts = 1157
+2022109135721-I-INFO DPI_task::DP_close_oldobs:  1155 Science packets, 2 Engineering (ULX) packets, 0 Bad pkts
+2022109135721-I-INFO DP_close_files:  ...jec409icq.pkx was closed
+2022109135721-I-INFO DP_close_files:  ...jec409icq.bdx was closed
+2022109135721-I-INFO DP_close_files:  ...jec409icq.ulx was closed
+2022109135721-I-INFO DP_close_files:  ...jec409icq.pki was closed
+2022109135721-I-INFO DP_close_files:  ...jec409icq.uli was closed
+2022109135721-I-INFO DPI_task::DP_close_oldobs:  Copied ...jec409ifq.shx to ...jec409icq.shx
+2022109135721-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   jec409icq ------------
+2022109140124-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: jec409icq ------------
+2022109140124-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: jec409icq ------------
+2022109140125-I-INFO dv_DataValidation:  -------------- Data Validation Started: jec409icq ------------
+2022109140125-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2022.109:10:10:29
+2022109140125-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2022.109:10:10:29 using yurintab date: 2018.249:22:15:00
+2022109140125-I-INFO dv_DataValidation:  -------------- Data Validation Completed: jec409icq ------------
+2022109140125-I-INFO ----------- World Coordinate System Started: jec409icq ---------
+2022109140125-I-INFO Running code ready for new ACS subarrays
+2022109140125-I-INFO Running code ready for new ACS subarrays
+2022109140125-I-INFO ----------- World Coordinate System Ended:   jec409icq ---------
+2022109140125-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: jec409icq ------------
+2022109140125-I-INFO GC_load_...s: ...jec409icq.dvx maxgroup=2
+2022109140125-I-INFO GC_load_...s: ...jec409icq.dgx maxgroup=0
+2022109140125-I-INFO GC_load_...s: ...jec409icq.dcx maxgroup=2
+2022109140125-I-INFO GCJ_exptime: expstart at 59688.424145
+2022109140125-I-INFO GCJ_exptime: EXPSTART set to   5.968842414536E+04 (mjd) 
+2022109140125-I-INFO GCJ_exptime: EXPEND   set to   5.968843140981E+04 (mjd) 
+2022109140125-I-INFO GCJ_exptime: TDFBEGIN is TDF Up
+2022109140125-I-INFO GCJ_exptime: EXPTIME  set to           627.000000 (sec) 
+2022109140125-I-INFO GCJ_exptime: SHUTRPOS currently set to N/A
+2022109140125-I-INFO GCJ_exptime: Wrote value B to SHUTRPOS (toggled)
+2022109140125-I-INFO GCJ_exptime: DARKTIME set to             0.000000 (sec)
+2022109140125-I-INFO GCJ_exptime: EXPFLAG  set to NORMAL
+2022109140125-I-INFO GCJ_exptime: planned exptime was:           627.000000 seconds
+2022109140125-I-INFO GCJ_fw_adjust: no CDBS PFL ref file coverage found for non-zero filter wheel offset of filters F165LP, N/A, so no offset correction will be computed.
+2022109140126-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec409icq ------------
+2022109140126-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec409icq ------------
+
+
+
+CALBEG*** ACS2D -- Version 10.3.5 (08-Feb-2022) ***
+Begin    19-Apr-2022 14:02:19 UTC
+2022109140219-I--------------- ACS2D started -----------------------------------
+Input    jec409icq_raw.fits
+Output   jec409icq_flt.fits
+Trying to open jec409icq_raw.fits...
+Read in Primary header from jec409icq_raw.fits...
+APERTURE SBC
+FILTER1 F165LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as:
+DESCRIP read in as:
+DESCRIP read in as:
+2022109140219-I--------------- Begin processing: JEC409ICQ ---------------------
+Processing 1 IMSETs...
+
+
+Imset 1  Begin 14:02:19 UTC
+2022109140219-I--------------- Input read into memory: JEC409ICQ ---------------
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+2022109140219-I--------------- DQICORR complete: JEC409ICQ ---------------------
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2022109140219-I--------------- Nonlinearity corr. complete: JEC409ICQ ----------
+         Uncertainty array initialized,
+2022109140219-I--------------- Uncertainty array initialized: JEC409ICQ --------
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+ratio of flat/input = 1,1 offset by 0,0
+FLATCORR COMPLETE
+2022109140219-I--------------- FLATCORR complete: JEC409ICQ --------------------
+
+
+PHOTCORR PERFORM
+Keyword PHOTMODE built as: ACS SBC F165LP MJD#59688.4241
+Created SYNPHOT obsmode of: acs,sbc,f165lp,mjd#59688.4241
+Computed PHOTFLAM value of 1.20518e-16
+IMPHTTAB jref$64614292j_imp.fits
+PHOTCORR COMPLETE
+2022109140219-I--------------- PHOTCORR complete: JEC409ICQ --------------------
+2022109140219-I--------------- Image statistics computed: JEC409ICQ ------------
+2022109140219-I--------------- Output written to disk: JEC409ICQ ---------------
+Imset 1  End 14:02:19 UTC
+
+
+End      19-Apr-2022 14:02:19 UTC
+
+
+*** ACS2D complete ***
+2022109140219-I--------------- ACS2D completed: JEC409ICQ ----------------------

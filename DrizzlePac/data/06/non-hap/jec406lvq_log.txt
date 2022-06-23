@@ -1,0 +1,117 @@
+2021349013659-I-INFO -------------- Data Partitioning Started: jec406lvq ------------
+2021349013659-I-INFO Partitioning from POD file: lz_bd36_211_0000189219
+2021349013659-I-INFO OSF_PROCESSING: for jec406lvq
+2021349013659-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021349013659-I-INFO DP_process_UDL Scheduled MEMORY DUMP: jec406lvq
+2021349013659-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1156, expected pkts = 1088 (single readout), total pkts = 1157
+2021349013659-I-INFO DPI_task::DP_close_oldobs:  1155 Science packets, 2 Engineering (ULX) packets, 0 Bad pkts
+2021349013659-I-INFO DP_close_files:  ...jec406lvq.pkx was closed
+2021349013659-I-INFO DP_close_files:  ...jec406lvq.bdx was closed
+2021349013659-I-INFO DP_close_files:  ...jec406lvq.ulx was closed
+2021349013659-I-INFO DP_close_files:  ...jec406lvq.pki was closed
+2021349013659-I-INFO DP_close_files:  ...jec406lvq.uli was closed
+2021349013659-I-INFO DPI_task::DP_close_oldobs:  Copied ...jec406m9q.shx to ...jec406lvq.shx
+2021349013659-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   jec406lvq ------------
+2022103153928-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: jec406lvq ------------
+2022103153930-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: jec406lvq ------------
+2022103153936-I-INFO dv_DataValidation:  -------------- Data Validation Started: jec406lvq ------------
+2022103153936-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.348:19:44:05
+2022103153936-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.348:19:44:05 using yurintab date: 2018.249:22:15:00
+2022103153936-I-INFO dv_DataValidation:  -------------- Data Validation Completed: jec406lvq ------------
+2022103153937-I-INFO ----------- World Coordinate System Started: jec406lvq ---------
+2022103153937-I-INFO Running code ready for new ACS subarrays
+2022103153937-I-INFO Running code ready for new ACS subarrays
+2022103153937-I-INFO ----------- World Coordinate System Ended:   jec406lvq ---------
+2022103153938-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: jec406lvq ------------
+2022103153938-I-INFO GC_load_...s: ...jec406lvq.dvx maxgroup=2
+2022103153938-I-INFO GC_load_...s: ...jec406lvq.dgx maxgroup=0
+2022103153938-I-INFO GC_load_...s: ...jec406lvq.dcx maxgroup=2
+2022103153939-I-INFO GCJ_exptime: expstart at 59562.822290
+2022103153939-I-INFO GCJ_exptime: EXPSTART set to   5.956282228980E+04 (mjd) 
+2022103153939-I-INFO GCJ_exptime: EXPEND   set to   5.956282951906E+04 (mjd) 
+2022103153939-I-INFO GCJ_exptime: TDFBEGIN is TDF Up
+2022103153939-I-INFO GCJ_exptime: EXPTIME  set to           624.000000 (sec) 
+2022103153939-I-INFO GCJ_exptime: SHUTRPOS currently set to N/A
+2022103153939-I-INFO GCJ_exptime: Wrote value B to SHUTRPOS (toggled)
+2022103153939-I-INFO GCJ_exptime: DARKTIME set to             0.000000 (sec)
+2022103153939-I-INFO GCJ_exptime: EXPFLAG  set to NORMAL
+2022103153939-I-INFO GCJ_exptime: planned exptime was:           624.000000 seconds
+2022103153940-I-INFO GCJ_fw_adjust: no CDBS PFL ref file coverage found for non-zero filter wheel offset of filters F165LP, N/A, so no offset correction will be computed.
+2022103153940-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec406lvq ------------
+2022103153940-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec406lvq ------------
+
+git tag: 2.7.4
+git branch: HEAD
+HEAD @: 1a22b1ffc418086114704ecde2858543b1a83224
+Setting max threads to 8 out of 8 available
+
+
+CALBEG*** CALACS -- Version 10.3.5 (08-Feb-2022) ***
+Begin    13-Apr-2022 15:45:10 UTC
+
+
+Input    jec406010_asn.fits
+LoadAsn:  Processing FULL Association
+Trying to open jec406010_asn.fits...
+Read in Primary header from jec406010_asn.fits...
+Starting to process MAMA data now...
+Warning    FLSHCORR ... not found...
+
+
+
+CALBEG*** ACS2D -- Version 10.3.5 (08-Feb-2022) ***
+Begin    13-Apr-2022 15:45:10 UTC
+Input    jec406lvq_raw.fits
+Output   jec406lvq_flt.fits
+Trying to open jec406lvq_raw.fits...
+Read in Primary header from jec406lvq_raw.fits...
+APERTURE SBC
+FILTER1 F165LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as:
+DESCRIP read in as:
+DESCRIP read in as:
+
+
+Imset 1  Begin 15:45:10 UTC
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+         Uncertainty array initialized,
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+FLATCORR COMPLETE
+
+
+PHOTCORR PERFORM
+IMPHTTAB jref$64614292j_imp.fits
+PHOTCORR COMPLETE
+Imset 1  End 15:45:10 UTC
+
+
+End      13-Apr-2022 15:45:10 UTC
+
+
+*** ACS2D complete ***

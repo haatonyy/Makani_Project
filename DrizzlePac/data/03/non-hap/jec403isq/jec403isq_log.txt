@@ -1,0 +1,117 @@
+2021164041539-I-INFO -------------- Data Partitioning Started: jec403isq ------------
+2021164041539-I-INFO Partitioning from POD file: lz_bd25_210_0000170661
+2021164041539-I-INFO OSF_PROCESSING: for jec403isq
+2021164041539-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021164041539-I-INFO DP_process_UDL Scheduled MEMORY DUMP: jec403isq
+2021164041539-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1156, expected pkts = 1088 (single readout), total pkts = 1157
+2021164041539-I-INFO DPI_task::DP_close_oldobs:  1155 Science packets, 2 Engineering (ULX) packets, 0 Bad pkts
+2021164041539-I-INFO DP_close_files:  ...jec403isq.pkx was closed
+2021164041539-I-INFO DP_close_files:  ...jec403isq.bdx was closed
+2021164041539-I-INFO DP_close_files:  ...jec403isq.ulx was closed
+2021164041539-I-INFO DP_close_files:  ...jec403isq.pki was closed
+2021164041539-I-INFO DP_close_files:  ...jec403isq.uli was closed
+2021164041539-I-INFO DPI_task::DP_close_oldobs:  Copied ...jec403jjq.shx to ...jec403isq.shx
+2021164041539-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   jec403isq ------------
+2021353055828-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: jec403isq ------------
+2021353055833-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: jec403isq ------------
+2021353055839-I-INFO dv_DataValidation:  -------------- Data Validation Started: jec403isq ------------
+2021353055840-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.164:00:43:16
+2021353055840-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.164:00:43:16 using yurintab date: 2018.249:22:15:00
+2021353055840-I-INFO dv_DataValidation:  -------------- Data Validation Completed: jec403isq ------------
+2021353055840-I-INFO ----------- World Coordinate System Started: jec403isq ---------
+2021353055841-I-INFO Running code ready for new ACS subarrays
+2021353055841-I-INFO Running code ready for new ACS subarrays
+2021353055841-I-INFO ----------- World Coordinate System Ended:   jec403isq ---------
+2021353055842-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: jec403isq ------------
+2021353055842-I-INFO GC_load_...s: ...jec403isq.dvx maxgroup=2
+2021353055842-I-INFO GC_load_...s: ...jec403isq.dgx maxgroup=0
+2021353055842-I-INFO GC_load_...s: ...jec403isq.dcx maxgroup=2
+2021353055843-I-INFO GCJ_exptime: expstart at 59378.030056
+2021353055843-I-INFO GCJ_exptime: EXPSTART set to   5.937803005556E+04 (mjd) 
+2021353055843-I-INFO GCJ_exptime: EXPEND   set to   5.937803732001E+04 (mjd) 
+2021353055843-I-INFO GCJ_exptime: TDFBEGIN is TDF Up
+2021353055843-I-INFO GCJ_exptime: EXPTIME  set to           627.000000 (sec) 
+2021353055843-I-INFO GCJ_exptime: SHUTRPOS currently set to N/A
+2021353055843-I-INFO GCJ_exptime: Wrote value B to SHUTRPOS (toggled)
+2021353055843-I-INFO GCJ_exptime: DARKTIME set to             0.000000 (sec)
+2021353055843-I-INFO GCJ_exptime: EXPFLAG  set to NORMAL
+2021353055843-I-INFO GCJ_exptime: planned exptime was:           627.000000 seconds
+2021353055844-I-INFO GCJ_fw_adjust: no CDBS PFL ref file coverage found for non-zero filter wheel offset of filters F165LP, N/A, so no offset correction will be computed.
+2021353055844-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec403isq ------------
+2021353055844-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec403isq ------------
+
+git tag: 2.7.2
+git branch: HEAD
+HEAD @: d395b8b88c2f4ccad65c6a3f176bf1907066c12d
+Setting max threads to 8 out of 8 available
+
+
+CALBEG*** CALACS -- Version 10.3.3 (24-May-2021) ***
+Begin    19-Dec-2021 05:59:58 UTC
+
+
+Input    jec403020_asn.fits
+LoadAsn:  Processing FULL Association
+Trying to open jec403020_asn.fits...
+Read in Primary header from jec403020_asn.fits...
+Starting to process MAMA data now...
+Warning    FLSHCORR ... not found...
+
+
+
+CALBEG*** ACS2D -- Version 10.3.3 (24-May-2021) ***
+Begin    19-Dec-2021 05:59:58 UTC
+Input    jec403isq_raw.fits
+Output   jec403isq_flt.fits
+Trying to open jec403isq_raw.fits...
+Read in Primary header from jec403isq_raw.fits...
+APERTURE SBC
+FILTER1 F165LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as:
+DESCRIP read in as:
+DESCRIP read in as:
+
+
+Imset 1  Begin 05:59:58 UTC
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+         Uncertainty array initialized,
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+FLATCORR COMPLETE
+
+
+PHOTCORR PERFORM
+IMPHTTAB jref$54t1757dj_imp.fits
+PHOTCORR COMPLETE
+Imset 1  End 05:59:58 UTC
+
+
+End      19-Dec-2021 05:59:58 UTC
+
+
+*** ACS2D complete ***

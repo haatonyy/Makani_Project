@@ -1,0 +1,1627 @@
+2021350043145-I-INFO-exposure_times-Start ------ Exposure Times Updater for jec407020 ------
+2021350043145-I-INFO-exposure_times-ASN: jec407020_asn.fits
+2021350043145-I-INFO-exposure_times-Using jec407slq_raw.fits
+2021350043145-I-INFO-exposure_times-For jec407slq, start 2021.349:22:43:46, end 2021.349:22:54:14
+2021350043145-I-INFO-exposure_times-Using jec407smq_raw.fits
+2021350043145-I-INFO-exposure_times-For jec407smq, start 2021.349:22:55:13, end 2021.349:23:05:41
+2021350043145-I-INFO-exposure_times-Using jec407snq_raw.fits
+2021350043145-I-INFO-exposure_times-For jec407snq, start 2021.349:23:06:40, end 2021.349:23:17:08
+2021350043145-I-INFO-exposure_times-Using jec407soq_raw.fits
+2021350043145-I-INFO-exposure_times-For jec407soq, start 2021.349:23:18:07, end 2021.349:23:28:35
+2021350043145-I-INFO-exposure_times-Updated 4 qolink_sms exposure times records.
+2021350043145-I-INFO-exposure_times-  End ------ Exposure Times Updater for jec407020 ------
+2021350042712-I-INFO -------------- Data Partitioning Started: jec407slq ------------
+2021350042712-I-INFO Partitioning from POD file: lz_bd51_145_0000189435
+2021350042712-I-INFO OSF_PROCESSING: for jec407slq
+2021350042712-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021350042712-I-INFO DP_process_UDL Scheduled MEMORY DUMP: jec407slq
+2021350042712-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1156, expected pkts = 1088 (single readout), total pkts = 1157
+2021350042712-I-INFO DPI_task::DP_close_oldobs:  1155 Science packets, 2 Engineering (ULX) packets, 0 Bad pkts
+2021350042712-I-INFO DP_close_files:  ...jec407slq.pkx was closed
+2021350042712-I-INFO DP_close_files:  ...jec407slq.bdx was closed
+2021350042712-I-INFO DP_close_files:  ...jec407slq.ulx was closed
+2021350042712-I-INFO DP_close_files:  ...jec407slq.pki was closed
+2021350042712-I-INFO DP_close_files:  ...jec407slq.uli was closed
+2021350042712-I-INFO DPI_task::DP_close_oldobs:  Copied ...jec407spq.shx to ...jec407slq.shx
+2021350042712-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   jec407slq ------------
+2021350043120-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: jec407slq ------------
+2021350043120-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: jec407slq ------------
+2021350043121-I-INFO dv_DataValidation:  -------------- Data Validation Started: jec407slq ------------
+2021350043121-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.349:22:43:06
+2021350043121-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.349:22:43:06 using yurintab date: 2018.249:22:15:00
+2021350043121-I-INFO dv_DataValidation:  -------------- Data Validation Completed: jec407slq ------------
+2021350043121-I-INFO ----------- World Coordinate System Started: jec407slq ---------
+2021350043121-I-INFO Running code ready for new ACS subarrays
+2021350043121-I-INFO Running code ready for new ACS subarrays
+2021350043121-I-INFO ----------- World Coordinate System Ended:   jec407slq ---------
+2021350043121-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: jec407slq ------------
+2021350043121-I-INFO GC_load_...s: ...jec407slq.dvx maxgroup=2
+2021350043121-I-INFO GC_load_...s: ...jec407slq.dgx maxgroup=0
+2021350043121-I-INFO GC_load_...s: ...jec407slq.dcx maxgroup=2
+2021350043121-I-INFO GCJ_exptime: expstart at 59563.947070
+2021350043121-I-INFO GCJ_exptime: EXPSTART set to   5.956394706980E+04 (mjd) 
+2021350043121-I-INFO GCJ_exptime: EXPEND   set to   5.956395433425E+04 (mjd) 
+2021350043121-I-INFO GCJ_exptime: TDFBEGIN is TDF Down
+2021350043121-I-INFO GCJ_exptime: EXPTIME  set to           627.000000 (sec) 
+2021350043121-I-INFO GCJ_exptime: SHUTRPOS currently set to N/A
+2021350043121-I-INFO GCJ_exptime: SHUTRPOS value remains N/A (untoggled) 
+2021350043121-I-INFO GCJ_exptime: DARKTIME set to             0.000000 (sec)
+2021350043121-I-INFO GCJ_exptime: EXPFLAG  set to NORMAL
+2021350043121-I-INFO GCJ_exptime: planned exptime was:           627.000000 seconds
+2021350043122-I-INFO GCJ_fw_adjust: no CDBS PFL ref file coverage found for non-zero filter wheel offset of filters F165LP, N/A, so no offset correction will be computed.
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec407slq ------------
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec407slq ------------
+
+git tag: 2.7.2
+git branch: HEAD
+HEAD @: d395b8b88c2f4ccad65c6a3f176bf1907066c12d
+Setting max threads to 1 out of 8 available
+
+
+CALBEG*** CALACS -- Version 10.3.3 (24-May-2021) ***
+Begin    16-Dec-2021 04:31:58 UTC
+2021350043158-I--------------- CALACS started ----------------------------------
+
+
+Input    jec407020_asn
+Processing FULL ASN table...
+LoadAsn:  Processing FULL Association
+Trying to open jec407020_asn.fits...
+Read in Primary header from jec407020_asn.fits...
+NUMBER of MEMBERS in TABLE: 5  PRODUCTS: 1  SUB-PRODUCTS: 4
+Product-- Member   1: jec407020  Product:  1  Type: prod-dth
+Sub-Product-- Member   1: jec407slq  Posn:  1  Type: exp-dth
+Exposure-- Member   1: jec407slq  Type: exp-dth
+Sub-Product-- Member   2: jec407smq  Posn:  2  Type: exp-dth
+Exposure-- Member   1: jec407smq  Type: exp-dth
+Sub-Product-- Member   3: jec407snq  Posn:  3  Type: exp-dth
+Exposure-- Member   1: jec407snq  Type: exp-dth
+Sub-Product-- Member   4: jec407soq  Posn:  4  Type: exp-dth
+Exposure-- Member   1: jec407soq  Type: exp-dth
+CALACS: Detector ACS, type 3
+Starting to process MAMA data now...
+CALACS: processing MAMA posid = 1
+Warning    FLSHCORR ... not found...
+CALACS: Got reference file information
+
+
+
+CALBEG*** ACS2D -- Version 10.3.3 (24-May-2021) ***
+Begin    16-Dec-2021 04:31:58 UTC
+2021350043158-I--------------- ACS2D started -----------------------------------
+Input    jec407slq_raw.fits
+Output   jec407slq_flt.fits
+Trying to open jec407slq_raw.fits...
+Read in Primary header from jec407slq_raw.fits...
+APERTURE SBC
+FILTER1 F165LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as:
+DESCRIP read in as:
+DESCRIP read in as:
+2021350043158-I--------------- Begin processing: JEC407SLQ ---------------------
+Processing 1 IMSETs...
+
+
+Imset 1  Begin 04:31:58 UTC
+2021350043158-I--------------- Input read into memory: JEC407SLQ ---------------
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+2021350043158-I--------------- DQICORR complete: JEC407SLQ ---------------------
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2021350043158-I--------------- Nonlinearity corr. complete: JEC407SLQ ----------
+         Uncertainty array initialized,
+2021350043158-I--------------- Uncertainty array initialized: JEC407SLQ --------
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+ratio of flat/input = 1,1 offset by 0,0
+FLATCORR COMPLETE
+2021350043158-I--------------- FLATCORR complete: JEC407SLQ --------------------
+
+
+PHOTCORR PERFORM
+Keyword PHOTMODE built as: ACS SBC F165LP MJD#59563.9471
+Created SYNPHOT obsmode of: acs,sbc,f165lp,mjd#59563.9471
+Computed PHOTFLAM value of 1.20335e-16
+IMPHTTAB jref$54t1757dj_imp.fits
+PHOTCORR COMPLETE
+2021350043158-I--------------- PHOTCORR complete: JEC407SLQ --------------------
+2021350043158-I--------------- Image statistics computed: JEC407SLQ ------------
+2021350043159-I--------------- Output written to disk: JEC407SLQ ---------------
+Imset 1  End 04:31:59 UTC
+
+
+End      16-Dec-2021 04:31:59 UTC
+
+
+*** ACS2D complete ***
+2021350043159-I--------------- ACS2D completed: JEC407SLQ ----------------------
+2021350043159-I--------------- ACS2D completed: JEC407SLQ ----------------------
+2021350042712-I-INFO -------------- Data Partitioning Started: jec407smq ------------
+2021350042712-I-INFO Partitioning from POD file: lz_bd51_145_0000189435
+2021350042712-I-INFO OSF_PROCESSING: for jec407smq
+2021350042712-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021350042713-I-INFO DP_process_UDL Scheduled MEMORY DUMP: jec407smq
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1156, expected pkts = 1088 (single readout), total pkts = 1157
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  1155 Science packets, 2 Engineering (ULX) packets, 0 Bad pkts
+2021350042713-I-INFO DP_close_files:  ...jec407smq.pkx was closed
+2021350042713-I-INFO DP_close_files:  ...jec407smq.bdx was closed
+2021350042713-I-INFO DP_close_files:  ...jec407smq.ulx was closed
+2021350042713-I-INFO DP_close_files:  ...jec407smq.pki was closed
+2021350042713-I-INFO DP_close_files:  ...jec407smq.uli was closed
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  Copied ...jec407spq.shx to ...jec407smq.shx
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   jec407smq ------------
+2021350043120-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: jec407smq ------------
+2021350043121-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: jec407smq ------------
+2021350043121-I-INFO dv_DataValidation:  -------------- Data Validation Started: jec407smq ------------
+2021350043121-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.349:22:54:55
+2021350043121-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.349:22:54:55 using yurintab date: 2018.249:22:15:00
+2021350043121-I-INFO dv_DataValidation:  -------------- Data Validation Completed: jec407smq ------------
+2021350043121-I-INFO ----------- World Coordinate System Started: jec407smq ---------
+2021350043121-I-INFO Running code ready for new ACS subarrays
+2021350043121-I-INFO Running code ready for new ACS subarrays
+2021350043121-I-INFO ----------- World Coordinate System Ended:   jec407smq ---------
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: jec407smq ------------
+2021350043122-I-INFO GC_load_...s: ...jec407smq.dvx maxgroup=2
+2021350043122-I-INFO GC_load_...s: ...jec407smq.dgx maxgroup=0
+2021350043122-I-INFO GC_load_...s: ...jec407smq.dcx maxgroup=2
+2021350043122-I-INFO GCJ_exptime: expstart at 59563.955021
+2021350043122-I-INFO GCJ_exptime: EXPSTART set to   5.956395502129E+04 (mjd) 
+2021350043122-I-INFO GCJ_exptime: EXPEND   set to   5.956396228573E+04 (mjd) 
+2021350043122-I-INFO GCJ_exptime: TDFBEGIN is TDF Down
+2021350043122-I-INFO GCJ_exptime: EXPTIME  set to           627.000000 (sec) 
+2021350043122-I-INFO GCJ_exptime: SHUTRPOS currently set to N/A
+2021350043122-I-INFO GCJ_exptime: SHUTRPOS value remains N/A (untoggled) 
+2021350043122-I-INFO GCJ_exptime: DARKTIME set to             0.000000 (sec)
+2021350043122-I-INFO GCJ_exptime: EXPFLAG  set to NORMAL
+2021350043122-I-INFO GCJ_exptime: planned exptime was:           627.000000 seconds
+2021350043122-I-INFO GCJ_fw_adjust: no CDBS PFL ref file coverage found for non-zero filter wheel offset of filters F165LP, N/A, so no offset correction will be computed.
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec407smq ------------
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec407smq ------------
+
+
+
+CALBEG*** ACS2D -- Version 10.3.3 (24-May-2021) ***
+Begin    16-Dec-2021 04:31:59 UTC
+2021350043159-I--------------- ACS2D started -----------------------------------
+Input    jec407smq_raw.fits
+Output   jec407smq_flt.fits
+Trying to open jec407smq_raw.fits...
+Read in Primary header from jec407smq_raw.fits...
+APERTURE SBC
+FILTER1 F165LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as:
+DESCRIP read in as:
+DESCRIP read in as:
+2021350043159-I--------------- Begin processing: JEC407SMQ ---------------------
+Processing 1 IMSETs...
+
+
+Imset 1  Begin 04:31:59 UTC
+2021350043159-I--------------- Input read into memory: JEC407SMQ ---------------
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+2021350043159-I--------------- DQICORR complete: JEC407SMQ ---------------------
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2021350043159-I--------------- Nonlinearity corr. complete: JEC407SMQ ----------
+         Uncertainty array initialized,
+2021350043159-I--------------- Uncertainty array initialized: JEC407SMQ --------
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+ratio of flat/input = 1,1 offset by 0,0
+FLATCORR COMPLETE
+2021350043159-I--------------- FLATCORR complete: JEC407SMQ --------------------
+
+
+PHOTCORR PERFORM
+Keyword PHOTMODE built as: ACS SBC F165LP MJD#59563.9550
+Created SYNPHOT obsmode of: acs,sbc,f165lp,mjd#59563.9550
+Computed PHOTFLAM value of 1.20335e-16
+IMPHTTAB jref$54t1757dj_imp.fits
+PHOTCORR COMPLETE
+2021350043159-I--------------- PHOTCORR complete: JEC407SMQ --------------------
+2021350043159-I--------------- Image statistics computed: JEC407SMQ ------------
+2021350043159-I--------------- Output written to disk: JEC407SMQ ---------------
+Imset 1  End 04:31:59 UTC
+
+
+End      16-Dec-2021 04:31:59 UTC
+
+
+*** ACS2D complete ***
+2021350043159-I--------------- ACS2D completed: JEC407SMQ ----------------------
+2021350043159-I--------------- ACS2D completed: JEC407SMQ ----------------------
+2021350042713-I-INFO -------------- Data Partitioning Started: jec407snq ------------
+2021350042713-I-INFO Partitioning from POD file: lz_bd51_145_0000189435
+2021350042713-I-INFO OSF_PROCESSING: for jec407snq
+2021350042713-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021350042713-I-INFO DP_process_UDL Scheduled MEMORY DUMP: jec407snq
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1156, expected pkts = 1088 (single readout), total pkts = 1157
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  1155 Science packets, 2 Engineering (ULX) packets, 0 Bad pkts
+2021350042713-I-INFO DP_close_files:  ...jec407snq.pkx was closed
+2021350042713-I-INFO DP_close_files:  ...jec407snq.bdx was closed
+2021350042713-I-INFO DP_close_files:  ...jec407snq.ulx was closed
+2021350042713-I-INFO DP_close_files:  ...jec407snq.pki was closed
+2021350042713-I-INFO DP_close_files:  ...jec407snq.uli was closed
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  Copied ...jec407spq.shx to ...jec407snq.shx
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   jec407snq ------------
+2021350043121-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: jec407snq ------------
+2021350043121-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: jec407snq ------------
+2021350043121-I-INFO dv_DataValidation:  -------------- Data Validation Started: jec407snq ------------
+2021350043121-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.349:23:06:22
+2021350043121-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.349:23:06:22 using yurintab date: 2018.249:22:15:00
+2021350043121-I-INFO dv_DataValidation:  -------------- Data Validation Completed: jec407snq ------------
+2021350043121-I-INFO ----------- World Coordinate System Started: jec407snq ---------
+2021350043121-I-INFO Running code ready for new ACS subarrays
+2021350043121-I-INFO Running code ready for new ACS subarrays
+2021350043121-I-INFO ----------- World Coordinate System Ended:   jec407snq ---------
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: jec407snq ------------
+2021350043122-I-INFO GC_load_...s: ...jec407snq.dvx maxgroup=2
+2021350043122-I-INFO GC_load_...s: ...jec407snq.dgx maxgroup=0
+2021350043122-I-INFO GC_load_...s: ...jec407snq.dcx maxgroup=2
+2021350043122-I-INFO GCJ_exptime: expstart at 59563.962972
+2021350043122-I-INFO GCJ_exptime: EXPSTART set to   5.956396297240E+04 (mjd) 
+2021350043122-I-INFO GCJ_exptime: EXPEND   set to   5.956397023721E+04 (mjd) 
+2021350043122-I-INFO GCJ_exptime: TDFBEGIN is TDF Down
+2021350043122-I-INFO GCJ_exptime: EXPTIME  set to           627.000000 (sec) 
+2021350043122-I-INFO GCJ_exptime: SHUTRPOS currently set to N/A
+2021350043122-I-INFO GCJ_exptime: SHUTRPOS value remains N/A (untoggled) 
+2021350043122-I-INFO GCJ_exptime: DARKTIME set to             0.000000 (sec)
+2021350043122-I-INFO GCJ_exptime: EXPFLAG  set to NORMAL
+2021350043122-I-INFO GCJ_exptime: planned exptime was:           627.000000 seconds
+2021350043122-I-INFO GCJ_fw_adjust: no CDBS PFL ref file coverage found for non-zero filter wheel offset of filters F165LP, N/A, so no offset correction will be computed.
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec407snq ------------
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec407snq ------------
+
+
+
+CALBEG*** ACS2D -- Version 10.3.3 (24-May-2021) ***
+Begin    16-Dec-2021 04:31:59 UTC
+2021350043159-I--------------- ACS2D started -----------------------------------
+Input    jec407snq_raw.fits
+Output   jec407snq_flt.fits
+Trying to open jec407snq_raw.fits...
+Read in Primary header from jec407snq_raw.fits...
+APERTURE SBC
+FILTER1 F165LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as:
+DESCRIP read in as:
+DESCRIP read in as:
+2021350043159-I--------------- Begin processing: JEC407SNQ ---------------------
+Processing 1 IMSETs...
+
+
+Imset 1  Begin 04:31:59 UTC
+2021350043159-I--------------- Input read into memory: JEC407SNQ ---------------
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+2021350043159-I--------------- DQICORR complete: JEC407SNQ ---------------------
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2021350043159-I--------------- Nonlinearity corr. complete: JEC407SNQ ----------
+         Uncertainty array initialized,
+2021350043159-I--------------- Uncertainty array initialized: JEC407SNQ --------
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+ratio of flat/input = 1,1 offset by 0,0
+FLATCORR COMPLETE
+2021350043159-I--------------- FLATCORR complete: JEC407SNQ --------------------
+
+
+PHOTCORR PERFORM
+Keyword PHOTMODE built as: ACS SBC F165LP MJD#59563.9630
+Created SYNPHOT obsmode of: acs,sbc,f165lp,mjd#59563.9630
+Computed PHOTFLAM value of 1.20335e-16
+IMPHTTAB jref$54t1757dj_imp.fits
+PHOTCORR COMPLETE
+2021350043159-I--------------- PHOTCORR complete: JEC407SNQ --------------------
+2021350043159-I--------------- Image statistics computed: JEC407SNQ ------------
+2021350043159-I--------------- Output written to disk: JEC407SNQ ---------------
+Imset 1  End 04:31:59 UTC
+
+
+End      16-Dec-2021 04:31:59 UTC
+
+
+*** ACS2D complete ***
+2021350043159-I--------------- ACS2D completed: JEC407SNQ ----------------------
+2021350043159-I--------------- ACS2D completed: JEC407SNQ ----------------------
+2021350042713-I-INFO -------------- Data Partitioning Started: jec407soq ------------
+2021350042713-I-INFO Partitioning from POD file: lz_bd51_145_0000189435
+2021350042713-I-INFO OSF_PROCESSING: for jec407soq
+2021350042713-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021350042713-I-INFO DP_process_UDL Scheduled MEMORY DUMP: jec407soq
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1156, expected pkts = 1088 (single readout), total pkts = 1157
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  1155 Science packets, 2 Engineering (ULX) packets, 0 Bad pkts
+2021350042713-I-INFO DP_close_files:  ...jec407soq.pkx was closed
+2021350042713-I-INFO DP_close_files:  ...jec407soq.bdx was closed
+2021350042713-I-INFO DP_close_files:  ...jec407soq.ulx was closed
+2021350042713-I-INFO DP_close_files:  ...jec407soq.pki was closed
+2021350042713-I-INFO DP_close_files:  ...jec407soq.uli was closed
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  Copied ...jec407spq.shx to ...jec407soq.shx
+2021350042713-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   jec407soq ------------
+2021350043121-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: jec407soq ------------
+2021350043121-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: jec407soq ------------
+2021350043121-I-INFO dv_DataValidation:  -------------- Data Validation Started: jec407soq ------------
+2021350043121-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.349:23:17:49
+2021350043121-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.349:23:17:49 using yurintab date: 2018.249:22:15:00
+2021350043121-I-INFO dv_DataValidation:  -------------- Data Validation Completed: jec407soq ------------
+2021350043121-I-INFO ----------- World Coordinate System Started: jec407soq ---------
+2021350043121-I-INFO Running code ready for new ACS subarrays
+2021350043121-I-INFO Running code ready for new ACS subarrays
+2021350043121-I-INFO ----------- World Coordinate System Ended:   jec407soq ---------
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: jec407soq ------------
+2021350043122-I-INFO GC_load_...s: ...jec407soq.dvx maxgroup=2
+2021350043122-I-INFO GC_load_...s: ...jec407soq.dgx maxgroup=0
+2021350043122-I-INFO GC_load_...s: ...jec407soq.dcx maxgroup=2
+2021350043122-I-INFO GCJ_exptime: expstart at 59563.970924
+2021350043122-I-INFO GCJ_exptime: EXPSTART set to   5.956397092388E+04 (mjd) 
+2021350043122-I-INFO GCJ_exptime: EXPEND   set to   5.956397818832E+04 (mjd) 
+2021350043122-I-INFO GCJ_exptime: TDFBEGIN is TDF Down
+2021350043122-I-INFO GCJ_exptime: EXPTIME  set to           627.000000 (sec) 
+2021350043122-I-INFO GCJ_exptime: SHUTRPOS currently set to N/A
+2021350043122-I-INFO GCJ_exptime: SHUTRPOS value remains N/A (untoggled) 
+2021350043122-I-INFO GCJ_exptime: DARKTIME set to             0.000000 (sec)
+2021350043122-I-INFO GCJ_exptime: EXPFLAG  set to NORMAL
+2021350043122-I-INFO GCJ_exptime: planned exptime was:           627.000000 seconds
+2021350043122-I-INFO GCJ_fw_adjust: no CDBS PFL ref file coverage found for non-zero filter wheel offset of filters F165LP, N/A, so no offset correction will be computed.
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec407soq ------------
+2021350043122-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec407soq ------------
+
+
+
+CALBEG*** ACS2D -- Version 10.3.3 (24-May-2021) ***
+Begin    16-Dec-2021 04:31:59 UTC
+2021350043159-I--------------- ACS2D started -----------------------------------
+Input    jec407soq_raw.fits
+Output   jec407soq_flt.fits
+Trying to open jec407soq_raw.fits...
+Read in Primary header from jec407soq_raw.fits...
+APERTURE SBC
+FILTER1 F165LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as:
+DESCRIP read in as:
+DESCRIP read in as:
+2021350043159-I--------------- Begin processing: JEC407SOQ ---------------------
+Processing 1 IMSETs...
+
+
+Imset 1  Begin 04:31:59 UTC
+2021350043159-I--------------- Input read into memory: JEC407SOQ ---------------
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+2021350043159-I--------------- DQICORR complete: JEC407SOQ ---------------------
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+2021350043159-I--------------- Nonlinearity corr. complete: JEC407SOQ ----------
+         Uncertainty array initialized,
+2021350043159-I--------------- Uncertainty array initialized: JEC407SOQ --------
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+ratio of flat/input = 1,1 offset by 0,0
+FLATCORR COMPLETE
+2021350043159-I--------------- FLATCORR complete: JEC407SOQ --------------------
+
+
+PHOTCORR PERFORM
+Keyword PHOTMODE built as: ACS SBC F165LP MJD#59563.9709
+Created SYNPHOT obsmode of: acs,sbc,f165lp,mjd#59563.9709
+Computed PHOTFLAM value of 1.20335e-16
+IMPHTTAB jref$54t1757dj_imp.fits
+PHOTCORR COMPLETE
+2021350043159-I--------------- PHOTCORR complete: JEC407SOQ --------------------
+2021350043159-I--------------- Image statistics computed: JEC407SOQ ------------
+2021350043159-I--------------- Output written to disk: JEC407SOQ ---------------
+Imset 1  End 04:31:59 UTC
+
+
+End      16-Dec-2021 04:31:59 UTC
+
+
+*** ACS2D complete ***
+2021350043159-I--------------- ACS2D completed: JEC407SOQ ----------------------
+2021350043159-I--------------- ACS2D completed: JEC407SOQ ----------------------
+
+
+CALBEG*** ACSDTH -- Version 10.3.3 (24-May-2021) ***
+Begin    16-Dec-2021 04:31:59 UTC
+2021350043159-I--------------- ACSDTH started ----------------------------------
+The task PyDrizzle needs to be run in order to generate
+a geometrically corrected, drizzle-combined product.
+PyDrizzle requires PyRAF. See pyraf.stsci.edu for more details.
+Trying to open jec407slq_spt.fits...
+Read in Primary header from jec407slq_spt.fits...
+Created output SPT rootname jec407020_spt.fits...
+
+Updated output SPT file to reflect 4 extensions...
+
+Trying to open jec407smq_spt.fits...
+Read in Primary header from jec407smq_spt.fits...
+Trying to open jec407snq_spt.fits...
+Read in Primary header from jec407snq_spt.fits...
+Trying to open jec407soq_spt.fits...
+Read in Primary header from jec407soq_spt.fits...
+End      16-Dec-2021 04:31:59 UTC
+
+
+*** ACSDTH complete ***
+Trying to open jec407020_asn.fits...
+Updated Global Header for jec407020_asn.fits...
+CALACS: Finished processing product
+
+
+End      16-Dec-2021 04:31:59 UTC
+
+
+*** CALACS complete ***
+2021350043159-I--------------- CALACS completed: JEC407SOQ ---------------------
+CALACS completion for jec407020_asn
+04:32:11 (16-Dec-2021): Calibration pipeline processing of jec407020_asn started.
+*** astrodrizzle Processing Version 2.3.1(29-Aug-2020)***
+    drizzlepac version 3.3.1    tweakwcs version 0.7.3    stwcs version 1.7.2    numpy version 1.21.22021350043213-I-----Starting alignment with bad-pixel identification------------
+*** astrodrizzle Processing Version 2.3.1(29-Aug-2020)***
+2021350043213-I-----astrodrizzle started ---------------------------------------
+*** astrodrizzle Processing Version 2.3.1(29-Aug-2020)***
+04:32:13 (16-Dec-2021): Processing jec407020_pipeline_asn.fits with astrodrizzle Version 3.3.1
+[INFO    ] Setting up logfile :  jec407020_pydriz.log
+[INFO    ] AstroDrizzle log file: jec407020_pydriz.log
+[INFO    ] AstroDrizzle Version 3.3.1 (2021-11-04 10:24:27 -0400) started at: 04:32:13.763 (16/12/2021)
+[INFO    ]
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [GCC 7.5.0]
+[INFO    ] 3.8.11 (default, Aug  3 2021, 15:09:35)
+[INFO    ] numpy Version -> 1.21.2
+[INFO    ] astropy Version -> 4.3.1
+[INFO    ] stwcs Version -> 1.7.2
+[INFO    ] ==== Processing Step  Initialization  started at  04:32:13.764 (16/12/2021)
+[INFO    ]
+[INFO    ] Executing serially
+[INFO    ] Setting up output name: jec407020_drz.fits
+[INFO    ] -Creating imageObject List as input for processing steps.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] -Creating output WCS.
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.59925874812654  0.29201834382294645
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] ********************************************************************************
+[INFO    ] *
+[INFO    ] *  Estimated memory usage:  up to 30 Mb.
+[INFO    ] *  Output image size:       1432 X 1389 pixels.
+[INFO    ] *  Output image file:       ~ 22 Mb.
+[INFO    ] *  Cores available:         1
+[INFO    ] *
+[INFO    ] ********************************************************************************
+[INFO    ] ==== Processing Step Initialization finished at 04:32:14.146 (16/12/2021)
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	build :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	context :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	group :
+[INFO    ] 	in_memory :	True
+[INFO    ] 	input :	jec407020_pipeline_asn.fits
+[INFO    ] 	mdriztab :	False
+[INFO    ] 	num_cores :	None
+[INFO    ] 	output :
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	resetbits :	0
+[INFO    ] 	rules_file :
+[INFO    ] 	runfile :	jec407020_pydriz
+[INFO    ] 	stepsize :	10
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	wcskey :
+[INFO    ] ==== Processing Step  Static Mask  started at  04:32:14.146 (16/12/2021)
+[INFO    ]
+[INFO    ] Static Mask step not performed.
+[INFO    ] ==== Processing Step Static Mask finished at 04:32:14.147 (16/12/2021)
+[INFO    ] ==== Processing Step  Subtract Sky  started at  04:32:14.1 (16/12/2021)
+[INFO    ]
+[INFO    ] Sky Subtraction step not performed.
+[INFO    ] MDRIZSKY ... not found in the jec407slq_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] MDRIZSKY ... not found in the jec407smq_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] MDRIZSKY ... not found in the jec407snq_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] MDRIZSKY ... not found in the jec407soq_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] ==== Processing Step Subtract Sky finished at 04:32:14.232 (16/12/2021)
+[INFO    ] ==== Processing Step  Separate Drizzle  started at  04:32:14.232 (16/12/2021)
+[INFO    ]
+[INFO    ] Single drizzle step not performed.
+[INFO    ] ==== Processing Step Separate Drizzle finished at 04:32:14.232 (16/12/2021)
+[INFO    ] ==== Processing Step  Create Median  started at  04:32:14.232 (16/12/2021)
+[INFO    ]
+[INFO    ] Median combination step not performed.
+[INFO    ] ==== Processing Step  Blot  started at  04:32:14.233 (16/12/2021)
+[INFO    ]
+[INFO    ] Blot step not performed.
+[INFO    ] ==== Processing Step Blot finished at 04:32:14.233 (16/12/2021)
+[INFO    ] ==== Processing Step  Driz_CR  started at  04:32:14.233 (16/12/2021)
+[INFO    ]
+[INFO    ] Cosmic-ray identification (driz_cr) step not performed.
+[INFO    ] ==== Processing Step  Final Drizzle  started at  04:32:14.233 (16/12/2021)
+[INFO    ]
+[INFO    ] Interpreted paramDict with single=False as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'wht_type': 'EXP', 'kernel': 'square', 'wt_scl': 'exptime', 'pixfrac': 1.0, 'fillval': 'INDEF', 'maskval': None, 'bits': 0, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Final Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	True
+[INFO    ] 	clean :	False
+[INFO    ] 	coeffs :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	fillval :	INDEF
+[INFO    ] 	kernel :	square
+[INFO    ] 	logfile :	jec407020_pydriz.log
+[INFO    ] 	maskval :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :
+[INFO    ] 	wht_type :	EXP
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel square
+[INFO    ] Running Drizzle to create output frame with WCS of:
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.59925874812654  0.29201834382294645
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] -Drizzle input: jec407slq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407smq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407snq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407soq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Generating multi-extension output file:  jec407020_drz.fits
+[INFO    ] Writing out to disk: jec407020_drz.fits
+[WARNING ] VerifyWarning: Card is too long, comment will be truncated.
+[INFO    ] ==== Processing Step Final Drizzle finished at 04:32:16.50 (16/12/2021)
+[INFO    ]
+[INFO    ] AstroDrizzle Version 3.3.1 is finished processing at 04:32:16.502 (16/12/2021).
+[INFO    ]
+[INFO    ]
+[INFO    ]
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ]
+[INFO    ]          Initialization          0.3821 sec.
+[INFO    ]             Static Mask          0.0002 sec.
+[INFO    ]            Subtract Sky          0.0853 sec.
+[INFO    ]        Separate Drizzle          0.0002 sec.
+[INFO    ]           Create Median          0.0000 sec.
+[INFO    ]                    Blot          0.0002 sec.
+[INFO    ]                 Driz_CR          0.0000 sec.
+[INFO    ]           Final Drizzle          2.2687 sec.
+[INFO    ]    ====================          ====================
+[INFO    ]                   Total          2.7368 sec.
+[INFO    ]
+[INFO    ] Trailer file written to:  jec407020_pydriz.log
+2021350043216-I-----astrodrizzle started ---------------------------------------
+*** astrodrizzle Processing Version 2.3.1(29-Aug-2020)***
+04:32:16 (16-Dec-2021): Processing jec407020_pipeline_asn.fits with astrodrizzle Version 3.3.1
+[INFO    ] Setting up logfile :  jec407020_pydriz.log
+[INFO    ] AstroDrizzle log file: jec407020_pydriz.log
+[INFO    ] AstroDrizzle Version 3.3.1 (2021-11-04 10:24:27 -0400) started at: 04:32:16.725 (16/12/2021)
+[INFO    ]
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [GCC 7.5.0]
+[INFO    ] 3.8.11 (default, Aug  3 2021, 15:09:35)
+[INFO    ] numpy Version -> 1.21.2
+[INFO    ] astropy Version -> 4.3.1
+[INFO    ] stwcs Version -> 1.7.2
+[INFO    ] ==== Processing Step  Initialization  started at  04:32:16.725 (16/12/2021)
+[INFO    ]
+[INFO    ] Executing serially
+[INFO    ] Setting up output name: jec407020_drz.fits
+[INFO    ] -Creating imageObject List as input for processing steps.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] -Creating output WCS.
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.59925874812654  0.29201834382294645
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] ********************************************************************************
+[INFO    ] *
+[INFO    ] *  Estimated memory usage:  up to 30 Mb.
+[INFO    ] *  Output image size:       1432 X 1389 pixels.
+[INFO    ] *  Output image file:       ~ 22 Mb.
+[INFO    ] *  Cores available:         1
+[INFO    ] *
+[INFO    ] ********************************************************************************
+[INFO    ] ==== Processing Step Initialization finished at 04:32:17.089 (16/12/2021)
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	build :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	context :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	group :
+[INFO    ] 	in_memory :	True
+[INFO    ] 	input :	jec407020_pipeline_asn.fits
+[INFO    ] 	mdriztab :	False
+[INFO    ] 	num_cores :	None
+[INFO    ] 	output :
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	resetbits :	0
+[INFO    ] 	rules_file :
+[INFO    ] 	runfile :	jec407020_pydriz
+[INFO    ] 	stepsize :	10
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	wcskey :
+[INFO    ] ==== Processing Step  Static Mask  started at  04:32:17.09 (16/12/2021)
+[INFO    ]
+[INFO    ] Static Mask step not performed.
+[INFO    ] ==== Processing Step Static Mask finished at 04:32:17.090 (16/12/2021)
+[INFO    ] ==== Processing Step  Subtract Sky  started at  04:32:17.090 (16/12/2021)
+[INFO    ]
+[INFO    ] Sky Subtraction step not performed.
+[INFO    ] ==== Processing Step Subtract Sky finished at 04:32:17.171 (16/12/2021)
+[INFO    ] ==== Processing Step  Separate Drizzle  started at  04:32:17.17 (16/12/2021)
+[INFO    ]
+[INFO    ] Single drizzle step not performed.
+[INFO    ] ==== Processing Step Separate Drizzle finished at 04:32:17.171 (16/12/2021)
+[INFO    ] ==== Processing Step  Create Median  started at  04:32:17.171 (16/12/2021)
+[INFO    ]
+[INFO    ] Median combination step not performed.
+[INFO    ] ==== Processing Step  Blot  started at  04:32:17.172 (16/12/2021)
+[INFO    ]
+[INFO    ] Blot step not performed.
+[INFO    ] ==== Processing Step Blot finished at 04:32:17.172 (16/12/2021)
+[INFO    ] ==== Processing Step  Driz_CR  started at  04:32:17.172 (16/12/2021)
+[INFO    ]
+[INFO    ] Cosmic-ray identification (driz_cr) step not performed.
+[INFO    ] ==== Processing Step  Final Drizzle  started at  04:32:17.172 (16/12/2021)
+[INFO    ]
+[INFO    ] Interpreted paramDict with single=False as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'wht_type': 'EXP', 'kernel': 'square', 'wt_scl': 'exptime', 'pixfrac': 1.0, 'fillval': 'INDEF', 'maskval': None, 'bits': 0, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Final Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	True
+[INFO    ] 	clean :	False
+[INFO    ] 	coeffs :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	fillval :	INDEF
+[INFO    ] 	kernel :	square
+[INFO    ] 	logfile :	jec407020_pydriz.log
+[INFO    ] 	maskval :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :
+[INFO    ] 	wht_type :	EXP
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel square
+[INFO    ] Removing previous output product...
+[INFO    ] Running Drizzle to create output frame with WCS of:
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.59925874812654  0.29201834382294645
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] -Drizzle input: jec407slq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407smq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407snq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407soq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Generating multi-extension output file:  jec407020_drz.fits
+[INFO    ] Writing out to disk: jec407020_drz.fits
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[INFO    ] ==== Processing Step Final Drizzle finished at 04:32:19.293 (16/12/2021)
+[INFO    ]
+[INFO    ] AstroDrizzle Version 3.3.1 is finished processing at 04:32:19.293 (16/12/2021).
+[INFO    ]
+[INFO    ]
+[INFO    ]
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ]
+[INFO    ]          Initialization          0.3637 sec.
+[INFO    ]             Static Mask          0.0002 sec.
+[INFO    ]            Subtract Sky          0.0811 sec.
+[INFO    ]        Separate Drizzle          0.0002 sec.
+[INFO    ]           Create Median          0.0000 sec.
+[INFO    ]                    Blot          0.0002 sec.
+[INFO    ]                 Driz_CR          0.0000 sec.
+[INFO    ]           Final Drizzle          2.1203 sec.
+[INFO    ]    ====================          ====================
+[INFO    ]                   Total          2.5658 sec.
+[INFO    ]
+[INFO    ] Trailer file written to:  jec407020_pydriz.log
+[INFO    ] Setting up logfile :  jec407020_pydriz.log
+[INFO    ] AstroDrizzle log file: jec407020_pydriz.log
+[INFO    ] AstroDrizzle Version 3.3.1 (2021-11-04 10:24:27 -0400) started at: 04:32:19.397 (16/12/2021)
+[INFO    ]
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [GCC 7.5.0]
+[INFO    ] 3.8.11 (default, Aug  3 2021, 15:09:35)
+[INFO    ] numpy Version -> 1.21.2
+[INFO    ] astropy Version -> 4.3.1
+[INFO    ] stwcs Version -> 1.7.2
+[INFO    ] ==== Processing Step  Initialization  started at  04:32:19.398 (16/12/2021)
+[INFO    ]
+[INFO    ] Executing serially
+[INFO    ] Setting up output name: jec407020_drz.fits
+[INFO    ] -Creating imageObject List as input for processing steps.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] -Creating output WCS.
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.59925874812654  0.29201834382294645
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] ********************************************************************************
+[INFO    ] *
+[INFO    ] *  Estimated memory usage:  up to 123 Mb.
+[INFO    ] *  Output image size:       1432 X 1389 pixels.
+[INFO    ] *  Output image file:       ~ 22 Mb.
+[INFO    ] *  Cores available:         4
+[INFO    ] *
+[INFO    ] ********************************************************************************
+[INFO    ] ==== Processing Step Initialization finished at 04:32:19.82 (16/12/2021)
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	build :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	context :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	group :
+[INFO    ] 	in_memory :	True
+[INFO    ] 	input :	jec407020_pipeline_asn.fits
+[INFO    ] 	mdriztab :	False
+[INFO    ] 	num_cores :	None
+[INFO    ] 	output :
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	resetbits :	0
+[INFO    ] 	rules_file :
+[INFO    ] 	runfile :	jec407020_pydriz
+[INFO    ] 	stepsize :	10
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	wcskey :
+[INFO    ] ==== Processing Step  Static Mask  started at  04:32:19.826 (16/12/2021)
+[INFO    ]
+[INFO    ] Static Mask step not performed.
+[INFO    ] ==== Processing Step Static Mask finished at 04:32:19.826 (16/12/2021)
+[INFO    ] ==== Processing Step  Subtract Sky  started at  04:32:19.82 (16/12/2021)
+[INFO    ]
+[INFO    ] Sky Subtraction step not performed.
+[INFO    ] ==== Processing Step Subtract Sky finished at 04:32:19.906 (16/12/2021)
+[INFO    ] ==== Processing Step  Separate Drizzle  started at  04:32:19.906 (16/12/2021)
+[INFO    ]
+[INFO    ] Interpreted paramDict with single=True as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'kernel': 'turbo', 'wt_scl': 'exptime', 'pixfrac': 1.0, 'fillval': 0.0, 'bits': 512, 'compress': False, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Separate Drizzle Step:
+[INFO    ] 	bits :	512
+[INFO    ] 	build :	False
+[INFO    ] 	clean :	False
+[INFO    ] 	coeffs :	True
+[INFO    ] 	compress :	False
+[INFO    ] 	crbit :	None
+[INFO    ] 	fillval :	0.0
+[INFO    ] 	kernel :	turbo
+[INFO    ] 	num_cores :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	electrons
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :
+[INFO    ] 	wht_type :	None
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel turbo
+[INFO    ] Running Drizzle to create output frame with WCS of:
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.59925874812654  0.29201834382294645
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] Executing 4 parallel workers
+[INFO    ] -Drizzle input: jec407slq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: jec407soq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: jec407smq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: jec407snq_flt.fits[sci,1]
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = turbo
+
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = turbo
+
+[INFO    ] -Drizzling using kernel = turbo
+
+[INFO    ] -Drizzling using kernel = turbo
+
+[WARNING ] ! 107 points were outside the output image.
+[INFO    ] -Generating simple FITS output: jec407soq_single_sci.fits
+[INFO    ] -Generating simple FITS output: jec407smq_single_sci.fits
+[INFO    ] -Generating simple FITS output: jec407snq_single_sci.fits
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[INFO    ] -Generating simple FITS output: jec407slq_single_sci.fits
+[INFO    ] Writing out image to disk: jec407soq_single_sci.fits
+[INFO    ] Writing out image to disk: jec407smq_single_sci.fits
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[INFO    ] Writing out image to disk: jec407snq_single_sci.fits
+[INFO    ] Writing out image to disk: jec407slq_single_sci.fits
+[INFO    ] ==== Processing Step Separate Drizzle finished at 04:32:20.997 (16/12/2021)
+[INFO    ] ==== Processing Step  Create Median  started at  04:32:20.999 (16/12/2021)
+[INFO    ]
+[INFO    ] Median combination step not performed.
+[INFO    ] ==== Processing Step  Blot  started at  04:32:21.000 (16/12/2021)
+[INFO    ]
+[INFO    ] Blot step not performed.
+[INFO    ] ==== Processing Step Blot finished at 04:32:21.001 (16/12/2021)
+[INFO    ] ==== Processing Step  Driz_CR  started at  04:32:21.001 (16/12/2021)
+[INFO    ]
+[INFO    ] Cosmic-ray identification (driz_cr) step not performed.
+[INFO    ] ==== Processing Step  Final Drizzle  started at  04:32:21.002 (16/12/2021)
+[INFO    ]
+[INFO    ] Interpreted paramDict with single=False as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'wht_type': 'EXP', 'kernel': 'square', 'wt_scl': 'exptime', 'pixfrac': 1.0, 'fillval': 'INDEF', 'maskval': None, 'bits': 0, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Final Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	True
+[INFO    ] 	clean :	False
+[INFO    ] 	coeffs :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	fillval :	INDEF
+[INFO    ] 	kernel :	square
+[INFO    ] 	logfile :	jec407020_pydriz.log
+[INFO    ] 	maskval :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :
+[INFO    ] 	wht_type :	EXP
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel square
+[INFO    ] Removing previous output product...
+[INFO    ] Running Drizzle to create output frame with WCS of:
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.59925874812654  0.29201834382294645
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] -Drizzle input: jec407slq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407smq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407snq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407soq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Generating multi-extension output file:  jec407020_drz.fits
+[INFO    ] Writing out to disk: jec407020_drz.fits
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[INFO    ] ==== Processing Step Final Drizzle finished at 04:32:23.271 (16/12/2021)
+[INFO    ]
+[INFO    ] AstroDrizzle Version 3.3.1 is finished processing at 04:32:23.271 (16/12/2021).
+[INFO    ]
+[INFO    ]
+[INFO    ]
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ]
+[INFO    ]          Initialization          0.4276 sec.
+[INFO    ]             Static Mask          0.0002 sec.
+[INFO    ]            Subtract Sky          0.0799 sec.
+[INFO    ]        Separate Drizzle          1.0904 sec.
+[INFO    ]           Create Median          0.0000 sec.
+[INFO    ]                    Blot          0.0007 sec.
+[INFO    ]                 Driz_CR          0.0000 sec.
+[INFO    ]           Final Drizzle          2.2690 sec.
+[INFO    ]    ====================          ====================
+[INFO    ]                   Total          3.8679 sec.
+[INFO    ]
+[INFO    ] Trailer file written to:  jec407020_pydriz.log
+2021350043224-I-----Verification of default-pipeline alignment started ---------
+Focus verification indicated that default-pipeline alignment SUCCEEDED.
+2021350043224-I-----Verification of alignment completed ------------------------
+2021350043228-I-----astrodrizzle started ---------------------------------------
+*** astrodrizzle Processing Version 2.3.1(29-Aug-2020)***
+04:32:28 (16-Dec-2021): Processing jec407020_pipeline_asn.fits with astrodrizzle Version 3.3.1
+[INFO    ] Setting up logfile :  jec407020_pydriz.log
+[INFO    ] AstroDrizzle log file: jec407020_pydriz.log
+[INFO    ] AstroDrizzle Version 3.3.1 (2021-11-04 10:24:27 -0400) started at: 04:32:28.462 (16/12/2021)
+[INFO    ]
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [GCC 7.5.0]
+[INFO    ] 3.8.11 (default, Aug  3 2021, 15:09:35)
+[INFO    ] numpy Version -> 1.21.2
+[INFO    ] astropy Version -> 4.3.1
+[INFO    ] stwcs Version -> 1.7.2
+[INFO    ] ==== Processing Step  Initialization  started at  04:32:28.463 (16/12/2021)
+[INFO    ]
+[INFO    ] Executing serially
+[INFO    ] Setting up output name: jec407020_drz.fits
+[INFO    ] -Creating imageObject List as input for processing steps.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] -Creating output WCS.
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.5992587481279  0.29201834382127734
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] ********************************************************************************
+[INFO    ] *
+[INFO    ] *  Estimated memory usage:  up to 123 Mb.
+[INFO    ] *  Output image size:       1432 X 1389 pixels.
+[INFO    ] *  Output image file:       ~ 22 Mb.
+[INFO    ] *  Cores available:         4
+[INFO    ] *
+[INFO    ] ********************************************************************************
+[INFO    ] ==== Processing Step Initialization finished at 04:32:28.8 (16/12/2021)
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	build :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	context :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	group :
+[INFO    ] 	in_memory :	True
+[INFO    ] 	input :	jec407020_pipeline_asn.fits
+[INFO    ] 	mdriztab :	False
+[INFO    ] 	num_cores :	None
+[INFO    ] 	output :
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	resetbits :	0
+[INFO    ] 	rules_file :
+[INFO    ] 	runfile :	jec407020_pydriz
+[INFO    ] 	stepsize :	10
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	wcskey :
+[INFO    ] ==== Processing Step  Static Mask  started at  04:32:28.896 (16/12/2021)
+[INFO    ]
+[INFO    ] Static Mask step not performed.
+[INFO    ] ==== Processing Step Static Mask finished at 04:32:28.897 (16/12/2021)
+[INFO    ] ==== Processing Step  Subtract Sky  started at  04:32:28.897 (16/12/2021)
+[INFO    ]
+[INFO    ] Sky Subtraction step not performed.
+[INFO    ] ==== Processing Step Subtract Sky finished at 04:32:28.999 (16/12/2021)
+[INFO    ] ==== Processing Step  Separate Drizzle  started at  04:32:28.999 (16/12/2021)
+[INFO    ]
+[INFO    ] Interpreted paramDict with single=True as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'kernel': 'turbo', 'wt_scl': 'exptime', 'pixfrac': 1.0, 'fillval': 0.0, 'bits': 0, 'compress': False, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Separate Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	False
+[INFO    ] 	clean :	False
+[INFO    ] 	coeffs :	True
+[INFO    ] 	compress :	False
+[INFO    ] 	crbit :	None
+[INFO    ] 	fillval :	0.0
+[INFO    ] 	kernel :	turbo
+[INFO    ] 	num_cores :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	electrons
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :
+[INFO    ] 	wht_type :	None
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel turbo
+[INFO    ] Running Drizzle to create output frame with WCS of:
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.5992587481279  0.29201834382127734
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] Executing 4 parallel workers
+[INFO    ] -Drizzle input: jec407slq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: jec407snq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: jec407soq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: jec407smq_flt.fits[sci,1]
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = turbo
+
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = turbo
+
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = turbo
+
+[INFO    ] -Drizzling using kernel = turbo
+
+[WARNING ] ! 107 points were outside the output image.
+[INFO    ] -Generating simple FITS output: jec407snq_single_sci.fits
+[INFO    ] -Generating simple FITS output: jec407slq_single_sci.fits
+[INFO    ] -Generating simple FITS output: jec407soq_single_sci.fits
+[INFO    ] -Generating simple FITS output: jec407smq_single_sci.fits
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[INFO    ] Writing out image to disk: jec407snq_single_sci.fits
+[INFO    ] Writing out image to disk: jec407slq_single_sci.fits
+[INFO    ] Writing out image to disk: jec407soq_single_sci.fits
+[INFO    ] Writing out image to disk: jec407smq_single_sci.fits
+[INFO    ] ==== Processing Step Separate Drizzle finished at 04:32:30.081 (16/12/2021)
+[INFO    ] ==== Processing Step  Create Median  started at  04:32:30.083 (16/12/2021)
+[INFO    ]
+[INFO    ] Median combination step not performed.
+[INFO    ] ==== Processing Step  Blot  started at  04:32:30.084 (16/12/2021)
+[INFO    ]
+[INFO    ] Blot step not performed.
+[INFO    ] ==== Processing Step Blot finished at 04:32:30.085 (16/12/2021)
+[INFO    ] ==== Processing Step  Driz_CR  started at  04:32:30.085 (16/12/2021)
+[INFO    ]
+[INFO    ] Cosmic-ray identification (driz_cr) step not performed.
+[INFO    ] ==== Processing Step  Final Drizzle  started at  04:32:30.086 (16/12/2021)
+[INFO    ]
+[INFO    ] Interpreted paramDict with single=False as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'wht_type': 'EXP', 'kernel': 'square', 'wt_scl': 'exptime', 'pixfrac': 1.0, 'fillval': 'INDEF', 'maskval': None, 'bits': 0, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Final Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	True
+[INFO    ] 	clean :	False
+[INFO    ] 	coeffs :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	fillval :	INDEF
+[INFO    ] 	kernel :	square
+[INFO    ] 	logfile :	jec407020_pydriz.log
+[INFO    ] 	maskval :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :
+[INFO    ] 	wht_type :	EXP
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel square
+[INFO    ] Running Drizzle to create output frame with WCS of:
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.5992587481279  0.29201834382127734
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] -Drizzle input: jec407slq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407smq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407snq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407soq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Generating multi-extension output file:  jec407020_drz.fits
+[INFO    ] Deleted all instances of WCS with key A in extensions [1]
+[INFO    ] Deleted all instances of WCS with key B in extensions [1]
+[INFO    ] Writing out to disk: jec407020_drz.fits
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[INFO    ] ==== Processing Step Final Drizzle finished at 04:32:32.492 (16/12/2021)
+[INFO    ]
+[INFO    ] AstroDrizzle Version 3.3.1 is finished processing at 04:32:32.492 (16/12/2021).
+[INFO    ]
+[INFO    ]
+[INFO    ]
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ]
+[INFO    ]          Initialization          0.4332 sec.
+[INFO    ]             Static Mask          0.0002 sec.
+[INFO    ]            Subtract Sky          0.1024 sec.
+[INFO    ]        Separate Drizzle          1.0814 sec.
+[INFO    ]           Create Median          0.0000 sec.
+[INFO    ]                    Blot          0.0008 sec.
+[INFO    ]                 Driz_CR          0.0000 sec.
+[INFO    ]           Final Drizzle          2.4056 sec.
+[INFO    ]    ====================          ====================
+[INFO    ]                   Total          4.0235 sec.
+[INFO    ]
+[INFO    ] Trailer file written to:  jec407020_pydriz.log
+2021350043233-I-----Verification of apriori alignment started ------------------
+Focus verification indicated that apriori alignment SUCCEEDED.
+Alignment appeared to SUCCEED based on similarity index of nan
+Saving products with new alignment.
+2021350043233-I-----Verification of alignment completed ------------------------
+2021350043224-I-----Starting alignment with a priori solutions------------------
+*** astrodrizzle Processing Version 2.3.1(29-Aug-2020)***
+Adding apriori WCS solutions to ['jec407slq_flt.fits', 'jec407smq_flt.fits', 'jec407snq_flt.fits', 'jec407soq_flt.fits']
+
+Verifying apriori WCSNAMEs:
+   jec407slq_flt.fits: IDC_v6m2008mj-GSC240
+   jec407smq_flt.fits: IDC_v6m2008mj-GSC240
+   jec407snq_flt.fits: IDC_v6m2008mj-GSC240
+   jec407soq_flt.fits: IDC_v6m2008mj-GSC240
+A priori alignment SUCCESSFUL.
+2021350043234-I-----Align_to_GAIA started --------------------------------------
+EXCEPTION encountered in align...
+   No correction to absolute astrometric frame applied!
+2021350043233-I-----Starting a posteriori alignment-----------------------------
+*** astrodrizzle Processing Version 2.3.1(29-Aug-2020)***
+2021350043237-I-----Creating final combined,corrected product based on best alignment
+*** astrodrizzle Processing Version 2.3.1(29-Aug-2020)***
+2021350043237-I-----astrodrizzle started ---------------------------------------
+*** astrodrizzle Processing Version 2.3.1(29-Aug-2020)***
+04:32:37 (16-Dec-2021): Processing jec407020_pipeline_asn.fits with astrodrizzle Version 3.3.1
+[INFO    ] Setting up logfile :  jec407020_pydriz.log
+[INFO    ] AstroDrizzle log file: jec407020_pydriz.log
+[INFO    ] AstroDrizzle Version 3.3.1 (2021-11-04 10:24:27 -0400) started at: 04:32:38.006 (16/12/2021)
+[INFO    ]
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [GCC 7.5.0]
+[INFO    ] 3.8.11 (default, Aug  3 2021, 15:09:35)
+[INFO    ] numpy Version -> 1.21.2
+[INFO    ] astropy Version -> 4.3.1
+[INFO    ] stwcs Version -> 1.7.2
+[INFO    ] ==== Processing Step  Initialization  started at  04:32:38.006 (16/12/2021)
+[INFO    ]
+[INFO    ] Executing serially
+[INFO    ] Setting up output name: jec407020_drz.fits
+[INFO    ] Reading in MDRIZTAB parameters for 4 files
+[INFO    ] - MDRIZTAB: AstroDrizzle parameters read from row 5.
+[INFO    ] -Creating imageObject List as input for processing steps.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reading in MDRIZSKY of 0.0
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec407slq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec407smq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec407snq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in jec407soq_flt.fits[DQ,1]
+[INFO    ] -Creating output WCS.
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.5992587481279  0.29201834382127734
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] ********************************************************************************
+[INFO    ] *
+[INFO    ] *  Estimated memory usage:  up to 30 Mb.
+[INFO    ] *  Output image size:       1432 X 1389 pixels.
+[INFO    ] *  Output image file:       ~ 22 Mb.
+[INFO    ] *  Cores available:         1
+[INFO    ] *
+[INFO    ] ********************************************************************************
+[INFO    ] ==== Processing Step Initialization finished at 04:32:38.701 (16/12/2021)
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	build :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	context :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	group :
+[INFO    ] 	in_memory :	True
+[INFO    ] 	input :	jec407020_pipeline_asn.fits
+[INFO    ] 	mdriztab :	True
+[INFO    ] 	num_cores :	None
+[INFO    ] 	output :
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	resetbits :	4096
+[INFO    ] 	rules_file :
+[INFO    ] 	runfile :
+[INFO    ] 	stepsize :	10
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	wcskey :
+[INFO    ] ==== Processing Step  Static Mask  started at  04:32:38.702 (16/12/2021)
+[INFO    ]
+[INFO    ] Static Mask step not performed.
+[INFO    ] ==== Processing Step Static Mask finished at 04:32:38.702 (16/12/2021)
+[INFO    ] ==== Processing Step  Subtract Sky  started at  04:32:38.702 (16/12/2021)
+[INFO    ]
+[INFO    ] Sky Subtraction step not performed.
+[INFO    ] ==== Processing Step Subtract Sky finished at 04:32:38.808 (16/12/2021)
+[INFO    ] ==== Processing Step  Separate Drizzle  started at  04:32:38.809 (16/12/2021)
+[INFO    ]
+[INFO    ] Single drizzle step not performed.
+[INFO    ] ==== Processing Step Separate Drizzle finished at 04:32:38.809 (16/12/2021)
+[INFO    ] ==== Processing Step  Create Median  started at  04:32:38.809 (16/12/2021)
+[INFO    ]
+[INFO    ] Median combination step not performed.
+[INFO    ] ==== Processing Step  Blot  started at  04:32:38.809 (16/12/2021)
+[INFO    ]
+[INFO    ] Blot step not performed.
+[INFO    ] ==== Processing Step Blot finished at 04:32:38.809 (16/12/2021)
+[INFO    ] ==== Processing Step  Driz_CR  started at  04:32:38.809 (16/12/2021)
+[INFO    ]
+[INFO    ] Cosmic-ray identification (driz_cr) step not performed.
+[INFO    ] ==== Processing Step  Final Drizzle  started at  04:32:38.810 (16/12/2021)
+[INFO    ]
+[INFO    ] Interpreted paramDict with single=False as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'wht_type': 'EXP', 'kernel': 'square', 'wt_scl': 'exptime', 'pixfrac': 1.0, 'fillval': None, 'maskval': None, 'bits': 0, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Final Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	True
+[INFO    ] 	clean :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	fillval :	None
+[INFO    ] 	kernel :	square
+[INFO    ] 	logfile :	jec407020_pydriz.log
+[INFO    ] 	maskval :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :
+[INFO    ] 	wht_type :	EXP
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel square
+[INFO    ] Removing previous output product...
+[INFO    ] Running Drizzle to create output frame with WCS of:
+[INFO    ] WCS Keywords
+[INFO    ]
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'
+[INFO    ] CRVAL : 319.5992587481279  0.29201834382127734
+[INFO    ] CRPIX : 716.0  694.5
+[INFO    ] CD1_1 CD1_2  : 3.20306985739427e-06  -6.1616275096644535e-06
+[INFO    ] CD2_1 CD2_2  : -6.1616275096644535e-06  -3.20306985739427e-06
+[INFO    ] NAXIS : 1432  1389
+[INFO    ] -Drizzle input: jec407slq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407smq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407snq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Drizzle input: jec407soq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[INFO    ] -Generating multi-extension output file:  jec407020_drz.fits
+[INFO    ] Deleted all instances of WCS with key A in extensions [1]
+[INFO    ] Deleted all instances of WCS with key B in extensions [1]
+[INFO    ] Writing out to disk: jec407020_drz.fits
+[WARNING ] ...card.py:1009: VerifyWarning: Card is too long, comment will be truncated.
+  warnings.warn('Card is too long, comment will be truncated.',
+
+[INFO    ] ==== Processing Step Final Drizzle finished at 04:32:40.993 (16/12/2021)
+[INFO    ]
+[INFO    ] AstroDrizzle Version 3.3.1 is finished processing at 04:32:40.993 (16/12/2021).
+[INFO    ]
+[INFO    ]
+[INFO    ]
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ]
+[INFO    ]          Initialization          0.6948 sec.
+[INFO    ]             Static Mask          0.0003 sec.
+[INFO    ]            Subtract Sky          0.1062 sec.
+[INFO    ]        Separate Drizzle          0.0002 sec.
+[INFO    ]           Create Median          0.0000 sec.
+[INFO    ]                    Blot          0.0002 sec.
+[INFO    ]                 Driz_CR          0.0000 sec.
+[INFO    ]           Final Drizzle          2.1833 sec.
+[INFO    ]    ====================          ====================
+[INFO    ]                   Total          2.9851 sec.
+[INFO    ]
+[INFO    ] Removing intermediate files for jec407slq_flt.fits
+[INFO    ] Removing intermediate files for jec407smq_flt.fits
+[INFO    ] Removing intermediate files for jec407snq_flt.fits
+[INFO    ] Removing intermediate files for jec407soq_flt.fits
+[INFO    ] Trailer file written to:  jec407020_pydriz.log
+2021350043241-I-----Writing Headerlets started----------------------------------
+Creating new headerlet from jec407slq_flt.fitsCreated Headerlet file jec407slq_flt_hlet.fits
+Creating new headerlet from jec407smq_flt.fitsCreated Headerlet file jec407smq_flt_hlet.fits
+Creating new headerlet from jec407snq_flt.fitsCreated Headerlet file jec407snq_flt_hlet.fits
+Creating new headerlet from jec407soq_flt.fitsCreated Headerlet file jec407soq_flt_hlet.fits
+2021350043241-I-----Writing Headerlets completed--------------------------------
+04:32:41 (16-Dec-2021): Finished processing jec407020_pipeline_asn.fits
+2021350043241-I-----astrodrizzle completed -------------------------------------
+2021350043250 INFO src=ac_xxx_OWL.run_task fsn=jec407020 msg="-------------- After Calibration Started for   jec407020 --------------"
+2021350043250 INFO src=ac_xxx_OWL-asn_product_status.banner_start fsn=jec407020 msg="Start ------  Association Product Status Updater for jec407020  ------"
+2021350043250 INFO src=ac_xxx_OWL-asn_product_status.get_asn_table fsn=jec407020 msg="--- ASN: ...jec407020_asn.fits"
+2021350043250 INFO src=ac_xxx_OWL-asn_product_status.build_query_list fsn=jec407020 msg="The product_status for JEC407020 is C"
+2021350043250 INFO src=ac_xxx_OWL-asn_product_status.asn_status_update fsn=jec407020 msg="Updated 1 asn_members.product_status record."
+2021350043250 INFO src=ac_xxx_OWL-asn_product_status.banner_end fsn=jec407020 msg="  End ------  Association Product Status Updater for jec407020  ------"
+2021350043250 INFO src=ac_xxx_OWL-hst_missionquery.__init__ msg="HST_Mission_db connection to ... ..."
+2021350043250 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=jec407020 msg="Opening connection to ..., ..."
+2021350043250 INFO src=ac_xxx_OWL-HstScienceDataset.determine_collected_members fsn=jec407020 msg="5 rows found for association jec407020"
+2021350043250 INFO src=ac_xxx_OWL-hst_missionquery.get_proposal_id fsn=jec407slq msg="returning 16231 for jec407slq"
+2021350043250 INFO src=ac_xxx_OWL-HstScienceDataset.__init__ fsn=jec407020 msg="HstScienceDataset(archive_product='jec407020', archive_product_type='PROD-DTH', dataset_type='asn', hst_db=<hst_missionquery.HST_Mission_db object at 0x2b2573c1d8e0>, instrument='acs', ipppssoot='jec407020', log=<Logfile.Logfile object at 0x2b257245a4c0>, product_exposures={'jec407slq': 'EXP-DTH', 'jec407smq': 'EXP-DTH', 'jec407snq': 'EXP-DTH', 'jec407soq': 'EXP-DTH'}, proposal_id='16231', subproducts={})"
+2021350043250 INFO src=ac_xxx_OWL.update_quality_...s fsn=jec407020 msg="No pdq_summary_update records found for jec407020."
+2021350043250 INFO src=ac_xxx_OWL.run_task fsn=jec407020 msg="-------------- After Calibration Completed for jec407020 --------------"

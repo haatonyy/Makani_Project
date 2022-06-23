@@ -1,0 +1,100 @@
+2021352063851-I-INFO -------------- Data Partitioning Started: jec457crq ------------
+2021352063851-I-INFO Partitioning from POD file: lz_bd7f_038_0000189741
+2021352063851-I-INFO OSF_PROCESSING: for jec457crq
+2021352063851-I-INFO DP_dan_present:  DAN file found- will archive pod and dan files
+2021352063851-I-INFO DP_process_UDL Scheduled MEMORY DUMP: jec457crq
+2021352063851-I-INFO DPI_task::DP_close_oldobs:  SDF lines = 1156, expected pkts = 1088 (single readout), total pkts = 1157
+2021352063851-I-INFO DPI_task::DP_close_oldobs:  1155 Science packets, 2 Engineering (ULX) packets, 0 Bad pkts
+2021352063852-I-INFO DP_close_files:  ...jec457crq.pkx was closed
+2021352063852-I-INFO DP_close_files:  ...jec457crq.bdx was closed
+2021352063852-I-INFO DP_close_files:  ...jec457crq.ulx was closed
+2021352063852-I-INFO DP_close_files:  ...jec457crq.pki was closed
+2021352063852-I-INFO DP_close_files:  ...jec457crq.uli was closed
+2021352063852-I-INFO DPI_task::DP_close_oldobs:  Copied ...jec457ctq.shx to ...jec457crq.shx
+2021352063852-I-INFO DPI_task::DP_close_oldobs:  -------------- Data Partitioning Ended:   jec457crq ------------
+2022103153926-I-INFO ss_SupportSchedule:  -------------- Support Schedule Started: jec457crq ------------
+2022103153927-I-INFO ss_SupportSchedule:  -------------- Support Schedule Completed: jec457crq ------------
+2022103153930-I-INFO dv_DataValidation:  -------------- Data Validation Started: jec457crq ------------
+2022103153930-I-INFO dv_Instrument::assign_first_key: from qolink_sms.start_time= 2021.351:21:09:58
+2022103153930-I-INFO dv_Instrument::assign_first_key: assigned first_keys for 2021.351:21:09:58 using yurintab date: 2018.249:22:15:00
+2022103153930-I-INFO dv_DataValidation:  -------------- Data Validation Completed: jec457crq ------------
+2022103153931-I-INFO ----------- World Coordinate System Started: jec457crq ---------
+2022103153931-I-INFO Running code ready for new ACS subarrays
+2022103153931-I-INFO Running code ready for new ACS subarrays
+2022103153931-I-INFO ----------- World Coordinate System Ended:   jec457crq ---------
+2022103153934-I-INFO gc_GenericConversion:  -------------- Generic Conversion Started: jec457crq ------------
+2022103153934-I-INFO GC_load_...s: ...jec457crq.dvx maxgroup=2
+2022103153934-I-INFO GC_load_...s: ...jec457crq.dgx maxgroup=0
+2022103153934-I-INFO GC_load_...s: ...jec457crq.dcx maxgroup=2
+2022103153934-I-INFO GCJ_exptime: expstart at 59565.881931
+2022103153934-I-INFO GCJ_exptime: EXPSTART set to   5.956588193092E+04 (mjd) 
+2022103153934-I-INFO GCJ_exptime: EXPEND   set to   5.956588919536E+04 (mjd) 
+2022103153934-I-INFO GCJ_exptime: TDFBEGIN is TDF Up
+2022103153934-I-INFO GCJ_exptime: EXPTIME  set to           627.000000 (sec) 
+2022103153934-I-INFO GCJ_exptime: SHUTRPOS currently set to N/A
+2022103153934-I-INFO GCJ_exptime: Wrote value B to SHUTRPOS (toggled)
+2022103153934-I-INFO GCJ_exptime: DARKTIME set to             0.000000 (sec)
+2022103153934-I-INFO GCJ_exptime: EXPFLAG  set to NORMAL
+2022103153934-I-INFO GCJ_exptime: planned exptime was:           627.000000 seconds
+2022103153934-I-INFO GCJ_fw_adjust: no CDBS PFL ref file coverage found for non-zero filter wheel offset of filters F165LP, N/A, so no offset correction will be computed.
+2022103153934-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec457crq ------------
+2022103153934-I-INFO gc_GenericConversion:  -------------- Generic Conversion Completed: jec457crq ------------
+
+
+
+CALBEG*** ACS2D -- Version 10.3.5 (08-Feb-2022) ***
+Begin    13-Apr-2022 15:45:09 UTC
+Input    jec457crq_raw.fits
+Output   jec457crq_flt.fits
+Trying to open jec457crq_raw.fits...
+Read in Primary header from jec457crq_raw.fits...
+APERTURE SBC
+FILTER1 F165LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as:
+DESCRIP read in as:
+DESCRIP read in as:
+
+
+Imset 1  Begin 15:45:09 UTC
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+         Uncertainty array initialized,
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+FLATCORR COMPLETE
+
+
+PHOTCORR PERFORM
+IMPHTTAB jref$64614292j_imp.fits
+PHOTCORR COMPLETE
+Imset 1  End 15:45:09 UTC
+
+
+End      13-Apr-2022 15:45:09 UTC
+
+
+*** ACS2D complete ***

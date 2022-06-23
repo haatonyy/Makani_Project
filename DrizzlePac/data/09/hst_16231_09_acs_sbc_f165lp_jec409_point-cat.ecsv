@@ -1,0 +1,93 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: X-Center, unit: pix, datatype: float64, format: 10.3f, description: Pixel Coordinate}
+# - {name: Y-Center, unit: pix, datatype: float64, format: 10.3f, description: Pixel Coordinate}
+# - {name: RA, unit: deg, datatype: float64, format: 13.7f, description: Sky coordinate at epoch of observation}
+# - {name: DEC, unit: deg, datatype: float64, format: 13.7f, description: Sky coordinate at epoch of observation}
+# - {name: ID, unit: '', datatype: int64, format: 7d, description: Catalog Object Identification Number}
+# - {name: MagAp1, unit: mag(AB), datatype: float64, format: 7.3f, description: ABMAG of source based on the inner (smaller) aperture}
+# - {name: MagErrAp1, unit: mag(AB), datatype: float64, format: 7.3f, description: Error of MagAp1}
+# - {name: MagAp2, unit: mag(AB), datatype: float64, format: 7.3f, description: ABMAG of source based on the outer (larger) aperture}
+# - {name: MagErrAp2, unit: mag(AB), datatype: float64, format: 7.3f, description: Error of MagAp2}
+# - {name: MSkyAp2, unit: electron / (pix s), datatype: float64, format: 7.3f, description: Sky estimate from an annulus outside Aperture
+#     2}
+# - {name: StdevAp2, unit: electron / (pix s), datatype: float64, format: 7.3f, description: Standard deviation of sky estimate from annulus
+#     outside Aperture 2}
+# - {name: FluxAp2, unit: electron / s, datatype: float64, format: 10.4f, description: Flux of source based on the outer (larger) aperture}
+# - {name: CI, unit: mag(AB), datatype: float64, format: 7.3f, description: Concentration Index}
+# - {name: Flags, unit: '', datatype: int64, format: 5d, description: Numeric encoding for conditions on detected sources}
+# meta: !!omap
+# - h00: [' #==================================================================================================']
+# - h01: [' # All refereed publications based on data obtained from the HAP must carry the following footnote: ']
+# - h02: [' #                                                                                                  ']
+# - h03: [' #     Based on observations made with the NASA/ESA Hubble Space Telescope                          ']
+# - h04: [' #     and obtained from the Hubble Advanced Products collection generated                          ']
+# - h05: [' #     by the Space Telescope Science Institute (STScI/NASA).                                       ']
+# - h06: [' #                                                                                                  ']
+# - h07: [' # One copy of each paper resulting from data obtained from the HAP should be sent to the STScI.    ']
+# - h08: [' #==================================================================================================']
+# - {WCSNAME: IDC_v6m2008mj}
+# - {WCSTYPE: undistorted not aligned}
+# - {Proposal ID: 16231}
+# - {Image File Name: HST_16231_09_ACS_SBC_F165LP_JEC409_DRZ.FITS}
+# - {Target Name: SDSS-J211824.06+001729.4}
+# - {Date Observed: '2022-04-19'}
+# - {Time Observed: '09:59:19'}
+# - {Instrument: ACS}
+# - {Detector: SBC}
+# - {Target RA: 319.60025}
+# - {Target DEC: 0.2915}
+# - {Orientation: 0.0}
+# - {Aperture RA: 319.5998263528}
+# - {Aperture DEC: 0.2919280802149}
+# - {Aperture PA: 78.944107}
+# - {Exposure Start: 59688.41619388}
+# - {Total Exposure Time: 2508.0}
+# - {Filter 1: F165LP}
+# - {Filter 2: N/A}
+# - {WCSAXES: 2}
+# - {CRPIX1: 819.80412362932}
+# - {CRPIX2: 835.80094091002}
+# - {CUNIT1: deg}
+# - {CUNIT2: deg}
+# - {CTYPE1: RA---TAN}
+# - {CTYPE2: DEC--TAN}
+# - {CRVAL1: 319.60069165384}
+# - {CRVAL2: 0.29200603571359}
+# - {MJDREF: 0.0}
+# - {RADESYS: ICRS}
+# - {CD1_1: -6.9444444444444e-06}
+# - {CD1_2: -2.1175823681357e-22}
+# - {CD2_1: -2.1175823681357e-22}
+# - {CD2_2: 6.9444444444444e-06}
+# - {Number of sources: 5}
+# - h09: ['#=================================================================================================']
+# - h10: [IMPORTANT NOTES]
+# - h11: ['The X and Y coordinates in this table are 0-indexed (i.e. the origin is (0,0)).']
+# - h12: [RA and Dec values in this table are in sky coordinates (i.e. coordinates at the epoch of observation]
+# - h12.1: [and an undistorted not aligned).]
+# - h13: [Magnitude values in this table are in the ABMAG system.]
+# - h14: ['Column titles in this table ending with Ap1 refer to the inner photometric aperture ']
+# - h14.1: ['(radius = 2.8000000000000185 pixels, 0.07 arcsec.']
+# - h15: ['Column titles in this table ending with Ap2 refer to the outer photometric aperture ']
+# - h15.1: ['(radius = 5.000000000000032 pixels, 0.125 arcsec.']
+# - h16: [CI = Concentration Index (CI) = MagAp1 - MagAp2.]
+# - h17: ['Flag Value Identification:']
+# - h17.1: ['    0 - Stellar Source (0.15 < CI < 0.45)']
+# - h17.2: ['    1 - Extended Source (CI > 0.45)']
+# - h17.3: ['    2 - Questionable Photometry (Single-Pixel Saturation)']
+# - h17.4: ['    4 - Questionable Photometry (Multi-Pixel Saturation)']
+# - h17.5: ['    8 - Faint Detection Limit']
+# - h17.6: ['   16 - Hot pixels (CI < 0.15)']
+# - h17.7: ['   32 - False Detection Swarm Around Saturated Source']
+# - h17.8: ['   64 - False Detections Near Image Edge']
+# - h17.9: ['  128 - Bleeding and Cosmic Rays']
+# - h18: ['#=================================================================================================']
+# schema: astropy-2.0
+X-Center Y-Center RA DEC ID MagAp1 MagErrAp1 MagAp2 MagErrAp2 MSkyAp2 StdevAp2 FluxAp2 CI Flags
+584.9104410106427 297.7966130725556 319.6023159360772 0.28827683888193517 1 26.66506919330456 0.14547088892556048 26.56108715229597 0.23604524121272402 0.0 0.0 0.0069387044328484224 0.10398204100859232 72
+828.2985816703558 746.1972093069058 319.600625719248 0.2913907320217422 2 25.502350383435157 0.08505670581773499 24.44396189412786 0.05831493888022216 6.012990669511441e-05 0.00023237312433939966 0.04876727529658198 1.0583884893072977 65
+820.957487371654 748.7159855922738 319.6006766997288 0.29140822352390217 3 25.6424317697562 0.08689856778551151 24.643619514375764 0.06277753196071142 3.6274532246132894e-05 0.00019518354697467728 0.040575646052248164 0.9988122553804359 65
+836.2631294182711 748.4211082648119 319.6005704091732 0.291406175764054 4 25.354699293349256 0.08081293036590621 24.026884647594095 0.04324520796042259 0.00011781216510281143 0.0002632513709375859 0.07160764485091564 1.3278146457551614 1
+815.1283772759148 750.7403557750398 319.6007171801836 0.2914222816501553 5 25.89440819380397 0.10806573701868503 24.962867952620684 0.0830068251064116 -4.076506709609377e-06 0.00019045592077064822 0.030238905526497942 0.9315402411832849 65

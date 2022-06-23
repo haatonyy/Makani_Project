@@ -1,0 +1,21 @@
+https://hst-docs.stsci.edu/acsdhb/chapter-2-acs-data-structure/2-1-types-of-acs-files
+
+(astroconda) visit1$ fitsheader -e 0 -k FILTER1 -k EXPTIME *flt.fits -t
+|           filename | hdu | keyword |  value |
+| jec401noq_flt.fits |   0 | FILTER1 | F150LP |
+| jec401noq_flt.fits |   0 | EXPTIME |  624.0 |
+| jec401nrq_flt.fits |   0 | FILTER1 | F150LP |
+| jec401nrq_flt.fits |   0 | EXPTIME |  624.0 |
+| jec401nvq_flt.fits |   0 | FILTER1 | F150LP |
+| jec401nvq_flt.fits |   0 | EXPTIME |  624.0 |
+| jec401nxq_flt.fits |   0 | FILTER1 | F150LP |
+| jec401nxq_flt.fits |   0 | EXPTIME |  624.0 |
+
+| jec401nyq_flt.fits |   0 | FILTER1 | F165LP |
+| jec401nyq_flt.fits |   0 | EXPTIME |  627.0 |
+| jec401nzq_flt.fits |   0 | FILTER1 | F165LP |
+| jec401nzq_flt.fits |   0 | EXPTIME |  627.0 |
+| jec401o0q_flt.fits |   0 | FILTER1 | F165LP |
+| jec401o0q_flt.fits |   0 | EXPTIME |  627.0 |
+| jec401o1q_flt.fits |   0 | FILTER1 | F165LP |
+| jec401o1q_flt.fits |   0 | EXPTIME |  627.0 |
