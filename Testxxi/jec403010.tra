@@ -1,0 +1,276 @@
+git tag: 2.7.1
+git branch: HEAD
+HEAD @: a1d9cd3f61883e6115c1bab04cdf072946d1658a
+
+
+CALBEG*** CALACS -- Version 10.3.2 (26-Apr-2021) ***
+Begin    27-Jun-2022 15:50:35 CDT
+
+
+Input    /Users/ha/Makani_Project/Testxxi/jec403010_asn.fits
+LoadAsn:  Processing FULL Association
+Trying to open /Users/ha/Makani_Project/Testxxi/jec403010_asn.fits...
+Read in Primary header from /Users/ha/Makani_Project/Testxxi/jec403010_asn.fits...
+Starting to process MAMA data now...
+Warning    FLSHCORR keyword not found...
+
+
+
+CALBEG*** ACS2D -- Version 10.3.2 (26-Apr-2021) ***
+Begin    27-Jun-2022 15:50:35 CDT
+Input    jec403ibq_raw.fits
+Output   jec403ibq_flt.fits
+Trying to open jec403ibq_raw.fits...
+Read in Primary header from jec403ibq_raw.fits...
+APERTURE SBC
+FILTER1 F165LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as: 
+DESCRIP read in as: 
+DESCRIP read in as: 
+
+
+Imset 1  Begin 15:50:35 CDT
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+         Uncertainty array initialized,
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+FLATCORR COMPLETE
+
+
+PHOTCORR PERFORM
+IMPHTTAB jref$64614292j_imp.fits
+PHOTCORR COMPLETE
+Imset 1  End 15:50:35 CDT
+
+
+End      27-Jun-2022 15:50:35 CDT
+
+
+*** ACS2D complete ***
+*** ACS2D complete ***
+
+
+CALBEG*** ACS2D -- Version 10.3.2 (26-Apr-2021) ***
+Begin    27-Jun-2022 15:50:35 CDT
+Input    jec403icq_raw.fits
+Output   jec403icq_flt.fits
+Trying to open jec403icq_raw.fits...
+Read in Primary header from jec403icq_raw.fits...
+APERTURE SBC
+FILTER1 F150LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as: 
+DESCRIP read in as: 
+DESCRIP read in as: 
+
+
+Imset 1  Begin 15:50:35 CDT
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+         Uncertainty array initialized,
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+FLATCORR COMPLETE
+
+
+PHOTCORR PERFORM
+IMPHTTAB jref$64614292j_imp.fits
+PHOTCORR COMPLETE
+Imset 1  End 15:50:35 CDT
+
+
+End      27-Jun-2022 15:50:35 CDT
+
+
+*** ACS2D complete ***
+*** ACS2D complete ***
+
+
+CALBEG*** ACS2D -- Version 10.3.2 (26-Apr-2021) ***
+Begin    27-Jun-2022 15:50:35 CDT
+Input    jec403idq_raw.fits
+Output   jec403idq_flt.fits
+Trying to open jec403idq_raw.fits...
+Read in Primary header from jec403idq_raw.fits...
+APERTURE SBC
+FILTER1 F165LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as: 
+DESCRIP read in as: 
+DESCRIP read in as: 
+
+
+Imset 1  Begin 15:50:35 CDT
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+         Uncertainty array initialized,
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+FLATCORR COMPLETE
+
+
+PHOTCORR PERFORM
+IMPHTTAB jref$64614292j_imp.fits
+PHOTCORR COMPLETE
+Imset 1  End 15:50:35 CDT
+
+
+End      27-Jun-2022 15:50:35 CDT
+
+
+*** ACS2D complete ***
+*** ACS2D complete ***
+
+
+CALBEG*** ACS2D -- Version 10.3.2 (26-Apr-2021) ***
+Begin    27-Jun-2022 15:50:35 CDT
+Input    jec403ieq_raw.fits
+Output   jec403ieq_flt.fits
+Trying to open jec403ieq_raw.fits...
+Read in Primary header from jec403ieq_raw.fits...
+APERTURE SBC
+FILTER1 F150LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as: 
+DESCRIP read in as: 
+DESCRIP read in as: 
+
+
+Imset 1  Begin 15:50:35 CDT
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+         Uncertainty array initialized,
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h22012j_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+FLATCORR COMPLETE
+
+
+PHOTCORR PERFORM
+IMPHTTAB jref$64614292j_imp.fits
+PHOTCORR COMPLETE
+Imset 1  End 15:50:35 CDT
+
+
+End      27-Jun-2022 15:50:35 CDT
+
+
+*** ACS2D complete ***
+*** ACS2D complete ***
+
+
+CALBEG*** ACSDTH -- Version 10.3.2 (26-Apr-2021) ***
+Begin    27-Jun-2022 15:50:35 CDT
+The task PyDrizzle needs to be run in order to generate
+a geometrically corrected, drizzle-combined product.
+PyDrizzle requires PyRAF. See pyraf.stsci.edu for more details.
+Warning    Can't find input file "jec403ibq_spt.fits"
+Warning    Can't find input file "jec403icq_spt.fits"
+Warning    Can't find input file "jec403idq_spt.fits"
+Warning    Can't find input file "jec403ieq_spt.fits"
+End      27-Jun-2022 15:50:35 CDT
+
+
+*** ACSDTH complete ***
+Trying to open /Users/ha/Makani_Project/Testxxi/jec403010_asn.fits...
+Updated Global Header for /Users/ha/Makani_Project/Testxxi/jec403010_asn.fits...
+
+
+End      27-Jun-2022 15:50:35 CDT
+
+
+*** CALACS complete ***
+CALACS completion for /Users/ha/Makani_Project/Testxxi/jec403010_asn.fits
