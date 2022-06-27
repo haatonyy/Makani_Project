@@ -1,0 +1,45 @@
+git tag: 2.7.1
+git branch: HEAD
+HEAD @: a1d9cd3f61883e6115c1bab04cdf072946d1658a
+
+
+
+git tag: 2.7.1
+git branch: HEAD
+HEAD @: a1d9cd3f61883e6115c1bab04cdf072946d1658a
+
+
+
+git tag: 2.7.1
+git branch: HEAD
+HEAD @: a1d9cd3f61883e6115c1bab04cdf072946d1658a
+
+
+
+git tag: 2.7.1
+git branch: HEAD
+HEAD @: a1d9cd3f61883e6115c1bab04cdf072946d1658a
+
+
+CALBEG*** CALACS -- Version 10.3.2 (26-Apr-2021) ***
+Begin    27-Jun-2022 12:25:33 CDT
+
+
+Input    jec401010_asn.fits
+LoadAsn:  Processing FULL Association
+Trying to open jec401010_asn.fits...
+Read in Primary header from jec401010_asn.fits...
+Starting to process MAMA data now...
+Warning    FLSHCORR keyword not found...
+
+
+
+CALBEG*** ACS2D -- Version 10.3.2 (26-Apr-2021) ***
+Begin    27-Jun-2022 12:25:33 CDT
+Input    jec401noq_raw.fits
+Output   jec401noq_flt.fits
+Warning    Output file `jec401noq_flt.fits' already exists.
+ERROR:    Couldn't process MAMA data
+ERROR:    CALACS processing NOT completed for jec401010_asn.fits
+ERROR:    CALACS processing NOT completed for jec401010_asn.fits
+ERROR:             status = 1021

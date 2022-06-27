@@ -1,0 +1,58 @@
+
+
+CALBEG*** ACS2D -- Version 10.3.2 (26-Apr-2021) ***
+Begin    27-Jun-2022 11:32:51 CDT
+Input    jec401nxq_raw.fits
+Output   jec401nxq_flt.fits
+Trying to open jec401nxq_raw.fits...
+Read in Primary header from jec401nxq_raw.fits...
+APERTURE SBC
+FILTER1 F150LP
+FILTER2 N/A
+DETECTOR SBC
+DESCRIP read in as: 
+DESCRIP read in as: 
+DESCRIP read in as: 
+
+
+Imset 1  Begin 11:32:51 CDT
+
+
+DQICORR  PERFORM
+DQITAB   jref$u451251ej_bpx.fits
+DQICORR  COMPLETE
+
+
+GLINCORR PERFORM
+LFLGCORR PERFORM
+MLINTAB  jref$k9c13374j_lin.fits
+MLINTAB  PEDIGREE=GROUND
+MLINTAB  DESCRIP =prepared by G. Meurer following STIS parameters of T. Danks
+GLINCORR COMPLETE
+LFLGCORR COMPLETE
+         Uncertainty array initialized,
+
+
+DARKCORR OMIT
+
+
+FLSHCORR OMIT
+
+
+FLATCORR PERFORM
+PFLTFILE jref$36h2201jj_pfl.fits
+PFLTFILE PEDIGREE=INFLIGHT 27/05/2002 02/04/2019
+PFLTFILE DESCRIP =Inflight SBC LP-Flat
+FLATCORR COMPLETE
+
+
+PHOTCORR PERFORM
+IMPHTTAB jref$64614292j_imp.fits
+PHOTCORR COMPLETE
+Imset 1  End 11:32:51 CDT
+
+
+End      27-Jun-2022 11:32:51 CDT
+
+
+*** ACS2D complete ***
