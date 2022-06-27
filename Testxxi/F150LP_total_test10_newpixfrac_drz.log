@@ -1,0 +1,277 @@
+[INFO    ] Setting up logfile :  F150LP_total_test10_newpixfrac_drz.log
+[INFO    ] AstroDrizzle log file: F150LP_total_test10_newpixfrac_drz.log
+[INFO    ] AstroDrizzle Version 3.3.1 (2021-11-04 10:24:27 -0400) started at: 16:41:23.721 (27/06/2022)
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.7.13 (default, Mar 28 2022, 07:24:34) 
+[INFO    ] numpy Version -> 1.21.5 
+[INFO    ] astropy Version -> 4.3.1 
+[INFO    ] stwcs Version -> 1.6.1 
+[INFO    ] ==== Processing Step  Initialization  started at  16:41:23.724 (27/06/2022)
+[INFO    ] 
+[ERROR   ] 
+[ERROR   ] ******* ERROR *******
+[ERROR   ] No input file found!  Check specification of parameter "input". 
+[ERROR   ] Quitting...
+[ERROR   ] ******* ***** *******
+[ERROR   ] 
+[INFO    ] ==== Processing Step Initialization finished at 16:41:23.73 (27/06/2022)
+[INFO    ] #################################################################
+[INFO    ] #                                                               #
+[INFO    ] # No valid images found for processing!                         #
+[INFO    ] # Check log file for full details.                              #
+[INFO    ] # Exiting AstroDrizzle now...                                   #
+[INFO    ] #                                                               #
+[INFO    ] #################################################################
+[ERROR   ] ##############################################################################
+[ERROR   ] #                                                                            #
+[ERROR   ] # ERROR:                                                                     #
+[ERROR   ] # AstroDrizzle Version 3.3.1 encountered a problem!  Processing terminated   #
+[ERROR   ] # at 16:41:23.735 (27/06/2022).                                              #
+[ERROR   ] #                                                                            #
+[ERROR   ] ##############################################################################
+[INFO    ] 
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ] 
+[INFO    ]          Initialization          0.0061 sec.
+[INFO    ]    ====================          ====================
+[INFO    ]                   Total          0.0061 sec.
+[INFO    ] 
+[INFO    ] Trailer file written to:  F150LP_total_test10_newpixfrac_drz.log
+[INFO    ] Setting up logfile :  F150LP_total_test10_newpixfrac_drz.log
+[INFO    ] AstroDrizzle log file: F150LP_total_test10_newpixfrac_drz.log
+[INFO    ] AstroDrizzle Version 3.3.1 (2021-11-04 10:24:27 -0400) started at: 16:42:42.592 (27/06/2022)
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version [Clang 12.0.0 ]
+[INFO    ] 3.7.13 (default, Mar 28 2022, 07:24:34) 
+[INFO    ] numpy Version -> 1.21.5 
+[INFO    ] astropy Version -> 4.3.1 
+[INFO    ] stwcs Version -> 1.6.1 
+[INFO    ] ==== Processing Step  Initialization  started at  16:42:42.595 (27/06/2022)
+[INFO    ] 
+[INFO    ] Executing serially
+[INFO    ] Setting up output name: F150LP_total_test10_newpixfrac_drz.fits
+[INFO    ] ##############################################################################
+[INFO    ] #                                                                            #
+[INFO    ] # “minmed” is highly recommended for three images,                           #
+[INFO    ] #  and is good for four to six images,                                       #
+[INFO    ] #  but should be avoided for ten or more images.                             #
+[INFO    ] #                                                                            #
+[INFO    ] ##############################################################################
+[INFO    ] -Creating imageObject List as input for processing steps.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] WARNING: No cte correction will be made for this SBC data.
+[INFO    ] Reset bit values of 4096 to a value of 0 in /Users/ha/Makani_Project/Testxxi/FLT/jec406m4q_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in /Users/ha/Makani_Project/Testxxi/FLT/jec406m8q_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in /Users/ha/Makani_Project/Testxxi/FLT/jec403ieq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in /Users/ha/Makani_Project/Testxxi/FLT/jec403icq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in /Users/ha/Makani_Project/Testxxi/FLT/jec401nrq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in /Users/ha/Makani_Project/Testxxi/FLT/jec406m6q_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in /Users/ha/Makani_Project/Testxxi/FLT/jec406m7q_flt.fits[DQ,1]
+[INFO    ] -Creating output WCS.
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'  
+[INFO    ] CRVAL : 319.6000530496775  0.2909676364409196  
+[INFO    ] CRPIX : 974.0  980.5  
+[INFO    ] CD1_1 CD1_2  : -6.944444444444445e-06  4.235164736271502e-22  
+[INFO    ] CD2_1 CD2_2  : 4.235164736271502e-22  6.944444444444445e-06  
+[INFO    ] NAXIS : 1947  1960
+[INFO    ] ********************************************************************************
+[INFO    ] *
+[INFO    ] *  Estimated memory usage:  up to 51 Mb.
+[INFO    ] *  Output image size:       1947 X 1960 pixels. 
+[INFO    ] *  Output image file:       ~ 43 Mb. 
+[INFO    ] *  Cores available:         1
+[INFO    ] *
+[INFO    ] ********************************************************************************
+[INFO    ] ==== Processing Step Initialization finished at 16:42:43.344 (27/06/2022)
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	build :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	context :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	group :	
+[INFO    ] 	in_memory :	False
+[INFO    ] 	input :	['FLT/jec406m4q_flt.fits', 'FLT/jec406m8q_flt.fits', 'FLT/jec403ieq_flt.fits', 'FLT/jec403icq_flt.fits', 'FLT/jec401nrq_flt.fits', 'FLT/jec406m6q_flt.fits', 'FLT/jec406m7q_flt.fits']
+[INFO    ] 	mdriztab :	False
+[INFO    ] 	num_cores :	1
+[INFO    ] 	output :	F150LP_total_test10_newpixfrac
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	resetbits :	4096
+[INFO    ] 	rules_file :	
+[INFO    ] 	runfile :	F150LP_total_test10_newpixfrac_drz.log
+[INFO    ] 	stepsize :	10
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	wcskey :	
+[INFO    ] ==== Processing Step  Static Mask  started at  16:42:43.345 (27/06/2022)
+[INFO    ] 
+[INFO    ] Static Mask step not performed.
+[INFO    ] ==== Processing Step Static Mask finished at 16:42:43.346 (27/06/2022)
+[INFO    ] ==== Processing Step  Subtract Sky  started at  16:42:43.346 (27/06/2022)
+[INFO    ] 
+[INFO    ] Sky Subtraction step not performed.
+[INFO    ] MDRIZSKY keyword not found in the /Users/ha/Makani_Project/Testxxi/FLT/jec406m4q_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] MDRIZSKY keyword not found in the /Users/ha/Makani_Project/Testxxi/FLT/jec406m8q_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] MDRIZSKY keyword not found in the /Users/ha/Makani_Project/Testxxi/FLT/jec403ieq_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] MDRIZSKY keyword not found in the /Users/ha/Makani_Project/Testxxi/FLT/jec403icq_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] MDRIZSKY keyword not found in the /Users/ha/Makani_Project/Testxxi/FLT/jec401nrq_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] MDRIZSKY keyword not found in the /Users/ha/Makani_Project/Testxxi/FLT/jec406m6q_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] MDRIZSKY keyword not found in the /Users/ha/Makani_Project/Testxxi/FLT/jec406m7q_flt.fits[SCI,1] header.
+[INFO    ]     Adding MDRIZSKY to header with default value of 0.
+[INFO    ] ==== Processing Step Subtract Sky finished at 16:42:43.475 (27/06/2022)
+[INFO    ] ==== Processing Step  Separate Drizzle  started at  16:42:43.476 (27/06/2022)
+[INFO    ] 
+[INFO    ] Single drizzle step not performed.
+[INFO    ] ==== Processing Step Separate Drizzle finished at 16:42:43.477 (27/06/2022)
+[INFO    ] ==== Processing Step  Create Median  started at  16:42:43.477 (27/06/2022)
+[INFO    ] 
+[INFO    ] Median combination step not performed.
+[INFO    ] ==== Processing Step  Blot  started at  16:42:43.47 (27/06/2022)
+[INFO    ] 
+[INFO    ] Blot step not performed.
+[INFO    ] ==== Processing Step Blot finished at 16:42:43.479 (27/06/2022)
+[INFO    ] ==== Processing Step  Driz_CR  started at  16:42:43.480 (27/06/2022)
+[INFO    ] 
+[INFO    ] Cosmic-ray identification (driz_cr) step not performed.
+[INFO    ] ==== Processing Step  Final Drizzle  started at  16:42:43.481 (27/06/2022)
+[INFO    ] 
+[INFO    ] Interpreted paramDict with single=False as:
+{'build': True, 'stepsize': 10, 'coeffs': True, 'wcskey': '', 'wht_type': 'EXP', 'kernel': 'square', 'wt_scl': 'exptime', 'pixfrac': 0.6, 'fillval': None, 'maskval': None, 'bits': 0, 'units': 'cps'}
+[INFO    ] USER INPUT PARAMETERS for Final Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	True
+[INFO    ] 	clean :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	fillval :	None
+[INFO    ] 	kernel :	square
+[INFO    ] 	logfile :	F150LP_total_test10_newpixfrac_drz.log
+[INFO    ] 	maskval :	None
+[INFO    ] 	pixfrac :	0.6
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	rules_file :	None
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :	
+[INFO    ] 	wht_type :	EXP
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel square
+[INFO    ] Running Drizzle to create output frame with WCS of: 
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] Number of WCS axes: 2
+[INFO    ] CTYPE : 'RA---TAN'  'DEC--TAN'  
+[INFO    ] CRVAL : 319.6000530496775  0.2909676364409196  
+[INFO    ] CRPIX : 974.0  980.5  
+[INFO    ] CD1_1 CD1_2  : -6.944444444444445e-06  4.235164736271502e-22  
+[INFO    ] CD2_1 CD2_2  : 4.235164736271502e-22  6.944444444444445e-06  
+[INFO    ] NAXIS : 1947  1960
+[INFO    ] -Drizzle input: /Users/ha/Makani_Project/Testxxi/FLT/jec406m4q_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 4376 points were outside the output image.
+[INFO    ] -Drizzle input: /Users/ha/Makani_Project/Testxxi/FLT/jec406m8q_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 5249 points were outside the output image.
+[INFO    ] -Drizzle input: /Users/ha/Makani_Project/Testxxi/FLT/jec403ieq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 1277 points were outside the output image.
+[INFO    ] -Drizzle input: /Users/ha/Makani_Project/Testxxi/FLT/jec403icq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 61 points were outside the output image.
+[INFO    ] -Drizzle input: /Users/ha/Makani_Project/Testxxi/FLT/jec401nrq_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 6759 points were outside the output image.
+[INFO    ] -Drizzle input: /Users/ha/Makani_Project/Testxxi/FLT/jec406m6q_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 1291 points were outside the output image.
+[INFO    ] -Drizzle input: /Users/ha/Makani_Project/Testxxi/FLT/jec406m7q_flt.fits[sci,1]
+[WARNING ] No CR mask file found! Input DQ array not updated.
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] -Drizzling using kernel = square
+
+[WARNING ] ! 1786 points were outside the output image.
+[INFO    ] -Generating multi-extension output file:  F150LP_total_test10_newpixfrac_drz.fits
+[INFO    ] Writing out to disk: F150LP_total_test10_newpixfrac_drz.fits
+[WARNING ] /Users/ha/.conda/envs/astroconda/lib/python3.7/site-packages/astropy/io/fits/card.py:1010: VerifyWarning: Card is too long, comment will be truncated.
+  VerifyWarning)
+
+[INFO    ] ==== Processing Step Final Drizzle finished at 16:42:45.521 (27/06/2022)
+[INFO    ] 
+[INFO    ] AstroDrizzle Version 3.3.1 is finished processing at 16:42:45.522 (27/06/2022).
+[INFO    ] 
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ] 
+[INFO    ]          Initialization          0.7484 sec.
+[INFO    ]             Static Mask          0.0008 sec.
+[INFO    ]            Subtract Sky          0.1292 sec.
+[INFO    ]        Separate Drizzle          0.0009 sec.
+[INFO    ]           Create Median          0.0000 sec.
+[INFO    ]                    Blot          0.0010 sec.
+[INFO    ]                 Driz_CR          0.0000 sec.
+[INFO    ]           Final Drizzle          2.0401 sec.
+[INFO    ]    ====================          ====================
+[INFO    ]                   Total          2.9204 sec.
+[INFO    ] 
+[INFO    ] Removing intermediate files for /Users/ha/Makani_Project/Testxxi/FLT/jec406m4q_flt.fits
+[INFO    ] Removing intermediate files for /Users/ha/Makani_Project/Testxxi/FLT/jec406m8q_flt.fits
+[INFO    ] Removing intermediate files for /Users/ha/Makani_Project/Testxxi/FLT/jec403ieq_flt.fits
+[INFO    ] Removing intermediate files for /Users/ha/Makani_Project/Testxxi/FLT/jec403icq_flt.fits
+[INFO    ] Removing intermediate files for /Users/ha/Makani_Project/Testxxi/FLT/jec401nrq_flt.fits
+[INFO    ] Removing intermediate files for /Users/ha/Makani_Project/Testxxi/FLT/jec406m6q_flt.fits
+[INFO    ] Removing intermediate files for /Users/ha/Makani_Project/Testxxi/FLT/jec406m7q_flt.fits
+[INFO    ] Trailer file written to:  F150LP_total_test10_newpixfrac_drz.log
